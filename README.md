@@ -25,17 +25,29 @@ Read the [project brief](docs/project-brief.md) for the translated assignment co
 
 We created three personas to describe distinct labor rights situations and the information each worker needs. Their goals and frustrations frame the language, trust cues, and referral paths the interface must support.
 
-| Persona | Situation | Main need | Artifact |
-| --- | --- | --- | --- |
-| Benjamin | A retail worker navigating his first medical leave | Simple, step-by-step guidance without legal jargon | [View persona](ux-personas/1.png) |
-| William | A cargo transport driver checking unpaid overtime | Reliable information and a discreet route to a complaint | [View persona](ux-personas/2.png) |
-| Joseph | A warehouse worker reviewing a severance settlement after dismissal | Understand the calculation before deciding whether to sign | [View persona](ux-personas/3.png) |
+| Persona | Situation | Main need |
+| --- | --- | --- |
+| Benjamin | A retail worker navigating his first medical leave | Simple, step-by-step guidance without legal jargon |
+| William | A cargo transport driver checking unpaid overtime | Reliable information and a discreet route to a complaint |
+| Joseph | A warehouse worker reviewing a severance settlement after dismissal | Understand the calculation before deciding whether to sign |
+
+#### Benjamin
+
+![Benjamin UX persona: a retail worker navigating his first medical leave](ux-personas/1.png)
+
+#### William
+
+![William UX persona: a cargo transport driver checking unpaid overtime](ux-personas/2.png)
+
+#### Joseph
+
+![Joseph UX persona: a warehouse worker reviewing a severance settlement](ux-personas/3.png)
 
 ### 2. Value Proposition Canvas
 
 We mapped workers' jobs, pains, and desired gains to the product's proposed features, pain relievers, and benefits. The canvas links needs such as understanding a settlement, handling medical leave, and knowing when to contact the Labor Inspectorate to plain-language guidance, legal citations, visible confidence levels, and referral to the competent authority.
 
-[View the Value Proposition Canvas](value_proposition.png)
+![Value Proposition Canvas for verified AI-assisted labor rights guidance](value_proposition.png)
 
 ## Semester workflow
 
