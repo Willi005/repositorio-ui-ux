@@ -1,4 +1,7 @@
-# Original course handouts are kept locally; the published documentation is in English.
+# Original course handouts are kept locally.
 indicacion_proyecto.md
 the_project_ux.png
 
+
+.venv-artifacts/
+__pycache__/
