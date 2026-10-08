@@ -1,9 +1,8 @@
-"""Render the Markdown benchmark and comparison tables as standalone HTML/PDF."""
+"""Render the Markdown benchmark and comparison tables as standalone HTML."""
 from pathlib import Path
 import base64
 import re
 import markdown
-from weasyprint import HTML
 
 ROOT = Path(__file__).resolve().parents[1]
 BENCHMARK = ROOT/'benchmark'
@@ -59,5 +58,4 @@ if __name__ == '__main__':
     matrix = render_markdown(BENCHMARK/'tabla-comparativa.md')
     document=f'<!DOCTYPE html><html lang="es"><meta charset="UTF-8"><title>Benchmark de orientación laboral</title><style>{CSS}</style><body><main>{report}</main><section class="comparison">{matrix}</section></body></html>'
     (BENCHMARK/'benchmark.html').write_text(document)
-    HTML(string=document,base_url=str(BENCHMARK)).write_pdf(BENCHMARK/'benchmark.pdf')
-    print('Generated standalone benchmark HTML and PDF with nine annotated screenshots and comparison tables.')
+    print('Generated standalone benchmark HTML. Build the APA PDF with scripts/build_benchmark.py.')
