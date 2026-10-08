@@ -1,15 +1,16 @@
 # Reproducción de los artefactos
 
-Requisitos del benchmark: Python, `uv` y bibliotecas Cairo/Pango. Poppler permite revisar los PDF. Desde la raíz del repositorio:
+Requisitos del benchmark: Python, `uv`, bibliotecas Cairo/Pango y TeX Live con `pdflatex`. Poppler permite revisar los PDF. Desde la raíz del repositorio:
 
 ```bash
 uv venv .venv-artifacts
 uv pip install --python .venv-artifacts/bin/python -r scripts/requirements.txt
 .venv-artifacts/bin/python scripts/generate_artifacts.py
 .venv-artifacts/bin/python scripts/render_benchmark.py
+python scripts/build_benchmark.py
 ```
 
-`generate_artifacts.py` utiliza las capturas originales y las anotaciones de evidencia. Genera nueve PNG anotados y el mapa comparativo en SVG, PNG y PDF. `render_benchmark.py` compone el análisis y la tabla comparativa como informe HTML autónomo y PDF, con imágenes embebidas. No consulta ni modifica servicios externos.
+`generate_artifacts.py` utiliza las capturas originales y las anotaciones de evidencia. Genera nueve PNG anotados y el mapa comparativo en SVG, PNG y PDF. `render_benchmark.py` compone el análisis y la tabla comparativa como HTML autónomo con imágenes embebidas. `build_benchmark.py` compila las fuentes de `benchmark/latex/` y genera el PDF de entrega con formato APA 7 y portada UFRO adaptada. El HTML no sobrescribe ese PDF. [Formato, fuentes y edición](../benchmark/latex/README.md). No consulta ni modifica servicios externos.
 
 ## Customer Journey de Guillermo
 

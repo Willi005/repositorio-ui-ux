@@ -49,7 +49,7 @@ El Canvas relaciona tareas, frustraciones y beneficios con explicación simple, 
 
 ### 3. Benchmarking competitivo
 
-[Análisis y hallazgos](benchmark/README.md) · [Tabla comparativa](benchmark/tabla-comparativa.md) · [Informe PDF](benchmark/benchmark.pdf).
+[Análisis y hallazgos](benchmark/README.md) · [Tabla comparativa](benchmark/tabla-comparativa.md) · [Informe PDF en APA 7](benchmark/benchmark.pdf) · [Fuentes LaTeX](benchmark/latex/README.md).
 
 Se comparan **Dirección del Trabajo** (directo), **SUSESO** (análogo) y **ChileAtiende** (referencia de diseño). Incluye nueve capturas anotadas, diez dimensiones base, cuatro del dominio y decisiones propuestas para el prototipo. Fecha: 5 de octubre de 2026; alcance documental e interfaces públicas.
 

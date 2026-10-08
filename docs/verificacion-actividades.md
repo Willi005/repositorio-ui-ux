@@ -47,3 +47,9 @@ La descarga de Google Drawings no produjo archivos. La copia SVG se obtuvo del c
 El PDF del Journey tiene una página. Las copias locales anteriores se retiraron de la entrega; permanecen recuperables en Git. Se actualizó la bóveda de Obsidian con este alcance.
 
 La inspección de accesibilidad del benchmark se limita a controles visibles. Los PDF no se presentan como PDF/UA certificados; la ficha Markdown ofrece una alternativa textual a la imagen.
+
+## Informe LaTeX y APA 7: 8 de octubre de 2026
+
+El informe de entrega se compila desde `benchmark/latex/`. La portada recicla la identidad UFRO del informe de Redes y actualiza equipo, docente y asignatura; se documenta su adaptación institucional. Se aplicaron doble interlineado, márgenes de 2,54 cm, sangría de 1,27 cm, tipografía Times de 12 puntos, encabezado con número de página, citas autor-fecha y referencias alfabéticas con sangría francesa. La matriz usa celdas a 10 puntos e interlineado simple para mantener legibilidad.
+
+El PDF final tiene 27 páginas. Se verificó la compilación con 27 referencias bibliográficas citadas y referencias cruzadas resueltas, cinco tablas y diez figuras (nueve capturas más el mapa). Se corrigieron notas separadas de sus tablas y se revisaron las páginas renderizadas. El comando rechaza errores de compilación, referencias sin resolver y desbordamientos mayores a 1 punto. Se comprobaron sintaxis de los scripts y enlaces locales; regenerar el HTML conservó el hash del PDF de LaTeX. La fecha de observación se mantiene en 5 de octubre de 2026.

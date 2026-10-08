@@ -1,0 +1,44 @@
+% APA 7 body with an institutional cover adapted from the Networks report.
+\usepackage[spanish,es-tabla,es-noquoting]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[margin=1in,headheight=15pt,headsep=0.25in]{geometry}
+\usepackage{setspace,titlesec,fancyhdr,booktabs,tabularx,xltabular,caption,graphicx,pdflscape,microtype,ragged2e}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
+\urlstyle{same}
+\newcommand{\reportTitle}{Benchmarking de orientación laboral asistida por IA con verificación}
+\hypersetup{pdftitle={Benchmarking de orientación laboral asistida por IA con verificación},pdfauthor={Guillermo Salgado; Benjamin Fonseca; Jose Villablanca},pdflang={es-CL}}
+\setcounter{secnumdepth}{0}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyhead[R]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+\doublespacing
+\setlength{\parindent}{0.5in}
+\setlength{\parskip}{0pt}
+\RaggedRight
+\setlength{\parindent}{0.5in}
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+\usepackage{indentfirst}
+\titleformat{\section}{\normalfont\normalsize\bfseries\centering}{}{0pt}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{}{0pt}{}
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\DeclareCaptionFont{apaspacing}{\doublespacing}
+\captionsetup{labelfont=bf,textfont=it,labelsep=newline,justification=raggedright,singlelinecheck=false,font={normalsize,apaspacing},skip=8pt}
+\newenvironment{figurenote}{\begin{minipage}{\textwidth}\doublespacing\RaggedRight\setlength{\parindent}{0pt}}{\end{minipage}}
+\newenvironment{references}{\begingroup\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}\doublespacing}{\par\endgroup}
+\newcommand{\reference}[2]{\par\hangindent=0.5in\hangafter=1\phantomsection\label{ref:#1}#2\par}
+\DeclareUnicodeCharacter{2192}{\ensuremath{\rightarrow}}
+\DeclareUnicodeCharacter{2212}{\ensuremath{-}}
+\DeclareUnicodeCharacter{00D7}{\ensuremath{\times}}
+\emergencystretch=2em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
