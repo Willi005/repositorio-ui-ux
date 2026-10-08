@@ -23,4 +23,4 @@ La evaluación privilegia la trazabilidad: cada elemento de la propuesta debe po
 
 Las [personas UX](../README.md) cubren primera licencia, horas impagas y finiquito. El [Canvas](../value_proposition.png) vincula esas necesidades con orientación, fuentes, confianza y derivación. El [benchmark](../benchmark/README.md) y el [Customer Journey](../customer-journey/README.md) proponen precisar el organismo de destino según materia y etapa, y expresar incertidumbre mediante razones y datos faltantes.
 
-Los mapas son hipótesis que se deben validar con usuarios y con el equipo. El proyecto aún no implementa un asistente ni una gestión de trámites.
+El Customer Journey vigente corresponde únicamente a Guillermo y se completó en la plantilla del docente. Es una hipótesis que se debe validar con usuarios y con el equipo. El proyecto aún no implementa un asistente ni una gestión de trámites.

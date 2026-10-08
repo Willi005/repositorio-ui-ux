@@ -1,8 +1,6 @@
 # Reproducción de los artefactos
 
-Requisitos: Python, `uv`, bibliotecas Cairo/Pango para renderizar y Poppler (`pdfunite`, `pdfinfo`, `pdftoppm`) para unir y revisar PDF. Las versiones de Python utilizadas y el alcance de revisión figuran en [la comprobación](../docs/verificacion-actividades.md).
-
-Desde la raíz del repositorio:
+Requisitos del benchmark: Python, `uv` y bibliotecas Cairo/Pango. Poppler permite revisar los PDF. Desde la raíz del repositorio:
 
 ```bash
 uv venv .venv-artifacts
@@ -11,8 +9,17 @@ uv pip install --python .venv-artifacts/bin/python -r scripts/requirements.txt
 .venv-artifacts/bin/python scripts/render_benchmark.py
 ```
 
-`generate_artifacts.py` utiliza capturas originales, anotaciones de evidencia y `customer-journey/journeys.json`. Genera nueve PNG anotados, un mapa comparativo, tres mapas de experiencia y sus fichas Markdown; cada mapa se exporta a PNG, SVG y PDF. Une los recorridos en un PDF de tres páginas. Comprueba el número máximo de líneas al generar bloques de texto.
+`generate_artifacts.py` utiliza las capturas originales y las anotaciones de evidencia. Genera nueve PNG anotados y el mapa comparativo en SVG, PNG y PDF. `render_benchmark.py` compone el análisis y la tabla comparativa como informe HTML autónomo y PDF, con imágenes embebidas. No consulta ni modifica servicios externos.
 
-`render_benchmark.py` compone el análisis y la tabla comparativa como informe HTML autónomo y PDF, con las imágenes embebidas. No realiza búsquedas, gestiones ni cargas a servicios externos.
+## Customer Journey de Guillermo
 
-La edición se realiza en los Markdown, las anotaciones del generador y `journeys.json`; los PNG/PDF son exportaciones. No editar a mano las fichas individuales de Journey si se va a regenerar: su contenido se toma del JSON. El archivo `customer-journey/README.md` conserva la metodología y se mantiene por separado.
+La composición se edita en la [plantilla completada de Google Drawings](https://docs.google.com/drawings/d/1HmiUZjjn4FukMQQF9UjHnj1F81ZRwnVklLkbzSECMUQ/edit). La ficha textual [guillermo.md](../customer-journey/guillermo.md) se mantiene junto al dibujo; los scripts del benchmark no generan mapas de personas ni sobrescriben esta entrega.
+
+La copia SVG vigente conserva la geometría y el texto del dibujo visible, incorpora los símbolos de la plantilla original y utiliza Liberation Sans para renderizar localmente. PNG y PDF se reproducen con librsvg (`rsvg-convert`):
+
+```bash
+rsvg-convert -w 2216 -h 2564 customer-journey/guillermo.svg -o customer-journey/guillermo.png
+rsvg-convert -f pdf customer-journey/guillermo.svg -o customer-journey/guillermo.pdf
+```
+
+Para cambios de composición, editar el Google Drawing, usar Archivo → Descargar cuando esté disponible y reemplazar las copias locales tras revisar textos y recortes. La edición de contenido requiere actualizar también la ficha Markdown. [Detalle de la copia local y de la plantilla](../customer-journey/README.md).

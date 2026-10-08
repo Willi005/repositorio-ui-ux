@@ -1,6 +1,6 @@
 # Comprobación de benchmarking y Customer Journey
 
-Fecha: **5 de octubre de 2026**. Rama de trabajo: `feature/benchmark-customer-journey`, creada desde `develop` conforme a Gitflow.
+Benchmark: **5 de octubre de 2026**. Corrección del Customer Journey: **8 de octubre de 2026**. Rama de trabajo: `feature/benchmark-customer-journey`, creada desde `develop` conforme a Gitflow.
 
 ## Pauta de benchmarking
 
@@ -24,24 +24,26 @@ Fecha: **5 de octubre de 2026**. Rama de trabajo: `feature/benchmark-customer-jo
 
 | Requisito | Evidencia preparada |
 | --- | --- |
-| Plantilla revisada | Documento Google Drawings leído en navegador; correspondencia de componentes documentada. |
-| Perspectiva de las personas existentes | Tres mapas; Joseph como caso principal, William y Benjamin complementarios. |
-| Puntos de contacto y actividades | Ocho por persona, distribuidos en cuatro fases; detalle Markdown y acciones en la imagen. |
-| Canales y dispositivos | Indicados por contacto; uso del celular marcado como supuesto por validar. |
-| Curva y descripción de emociones | Ocho emociones por mapa y curva cualitativa, explícitamente inferidas. |
-| Valor, barreras y oportunidades | Cuatro bloques de cada dimensión por mapa. |
-| Momento clave | Contacto destacado en la curva y descrito en texto. |
-| Trazabilidad y validación | Tabla evidencia → decisión → contacto → comprobación y plan de sesiones. |
-| Exportaciones | PNG, SVG editable, PDF individual y PDF conjunto de tres páginas. |
+| Formato del profesor | Google Drawing completado directamente, conservando su composición y objetos editables. |
+| Alcance corregido | Una sola entrega de Guillermo, conductor de carga de 51 años en Temuco. |
+| Puntos de contacto y actividades | Dieciséis acciones distribuidas en búsqueda, verificación, orientación y seguimiento. |
+| Canales y dispositivos | Detallados por acción en la ficha Markdown; celular como supuesto por validar. |
+| Curva y descripción de emociones | Línea cualitativa y leyenda de nueve emociones; detalle inferido por acción, sin puntuaciones medidas. |
+| Valor, barreras y oportunidades | Doce recuadros completos: cuatro de cada dimensión. |
+| Momento clave | Identificar régimen de jornada y antecedentes faltantes antes de interpretar pagos. |
+| Trazabilidad y validación | Relación entre persona, Canvas, benchmark, decisiones y preguntas de validación. |
+| Archivos | Fuente editable en Google Drawings; copia SVG, PNG, PDF de una página, ficha Markdown y captura del documento guardado. |
 
-Los mapas son recorridos propuestos. La curva emocional no procede de entrevistas ni expresa una medición. Los organismos de destino se seleccionan por materia/etapa, y no se inventan montos, plazos ni resultados individuales.
+El mapa es una experiencia propuesta. La curva no procede de entrevistas ni expresa una medición. No se inventan montos, plazos ni resultados individuales. La persona original usa «William» en el título y «Guillermo» en la descripción; se adopta el nombre solicitado por el usuario.
 
 ## Revisión técnica y visual
 
-- Se verificó la estructura: nueve capturas anotadas; tres mapas con ocho contactos/emociones y cuatro bloques por dimensión.
-- Se regeneraron los artefactos y se revisaron visualmente los tres mapas, el mapa de funcionalidades y páginas del informe PDF. Se corrigieron recortes de contenido y composición de las capturas en la exportación.
-- Se comprobó la existencia de los destinos locales de todos los enlaces Markdown y el tamaño/número de páginas de los PDF: 22 páginas del informe y tres del conjunto de mapas. Los enlaces externos respaldan la investigación de la fecha; no se garantiza su permanencia.
-- Se ejecutó `git diff --check`. No se requieren pruebas de aplicación porque el trabajo incorpora documentación, evidencia y generadores de artefactos, sin implementar un producto.
-- Entorno de generación: Python 3.14.7; Pillow 12.3.0, CairoSVG 2.9.1, Markdown 3.11 y WeasyPrint 70.0. Dependencias fijadas en `scripts/requirements.txt`; Poppler utilizado para unir y renderizar.
+La revisión inicial del 5 de octubre comprobó nueve capturas anotadas, mapa de funcionalidades e informe de benchmarking de 22 páginas. Esa evidencia conserva su fecha de observación.
 
-La inspección visual de accesibilidad del benchmark se limita a los controles visibles. Los PDF no se presentan como documentos PDF/UA certificados; las fichas Markdown conservan una alternativa textual a los mapas e imágenes.
+La corrección del 8 de octubre se revisó contra el dibujo guardado en Google Drive: cuatro etapas, dieciséis acciones y doce recuadros completos, sin ejemplos turísticos ni marcadores «Actividad» o «Escribir». Se revisaron visualmente la copia PNG y una página renderizada del PDF, además de comprobar los destinos de los enlaces locales y ejecutar `git diff --check`.
+
+La descarga de Google Drawings no produjo archivos. La copia SVG se obtuvo del contenido visible, con los símbolos del respaldo de la plantilla original y sustitución local de fuentes web por Liberation Sans. PNG/PDF se renderizan con librsvg; la composición original continúa editable en Google Drawings. Los scripts del benchmark ya no generan ni recuperan los tres mapas anteriores.
+
+El PDF del Journey tiene una página. Las copias locales anteriores se retiraron de la entrega; permanecen recuperables en Git. Se actualizó la bóveda de Obsidian con este alcance.
+
+La inspección de accesibilidad del benchmark se limita a controles visibles. Los PDF no se presentan como PDF/UA certificados; la ficha Markdown ofrece una alternativa textual a la imagen.
