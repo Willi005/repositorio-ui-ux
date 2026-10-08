@@ -42,11 +42,17 @@ La revisión inicial del 5 de octubre comprobó nueve capturas anotadas, mapa de
 
 La corrección del 8 de octubre se revisó contra el dibujo guardado en Google Drive: cuatro etapas, dieciséis acciones y doce recuadros completos, sin ejemplos turísticos ni marcadores «Actividad» o «Escribir». Se revisaron visualmente la copia PNG y una página renderizada del PDF, además de comprobar los destinos de los enlaces locales y ejecutar `git diff --check`.
 
-La descarga de Google Drawings no produjo archivos. La copia SVG se obtuvo del contenido visible, con los símbolos del respaldo de la plantilla original y sustitución local de fuentes web por Liberation Sans. PNG/PDF se renderizan con librsvg; la composición original continúa editable en Google Drawings. Los scripts del benchmark ya no generan ni recuperan los tres mapas anteriores.
+La primera corrección utilizó una copia SVG del contenido visible porque la descarga no produjo archivos. La revisión posterior del 8 de octubre reemplaza esa copia por una exportación SVG nativa de Google Drawings. PNG/PDF se renderizan con librsvg; la composición original continúa editable en Google Drawings. Los scripts del benchmark no generan ni recuperan los tres mapas anteriores.
 
 El PDF del Journey tiene una página. Las copias locales anteriores se retiraron de la entrega; permanecen recuperables en Git. Se actualizó la bóveda de Obsidian con este alcance.
 
 La inspección de accesibilidad del benchmark se limita a controles visibles. Los PDF no se presentan como PDF/UA certificados; la ficha Markdown ofrece una alternativa textual a la imagen.
+
+## Rediseño del Customer Journey en inglés: 8 de octubre de 2026
+
+Se conserva el diseño original del docente: cuatro etapas, dieciséis acciones, curva roja, símbolos emocionales, momento clave y doce celdas inferiores. Todos los textos del dibujo y de la ficha `guillermo.md` están en inglés por indicación del usuario. Se acortaron etiquetas y textos, se eliminaron cursivas inconsistentes y se aplicaron tamaños homogéneos y mayor contraste.
+
+Se comprobó el texto visible del dibujo, la ausencia de rótulos en español y la eliminación de un cuadro sobrante. Se verificó el estado guardado en Drive y se capturó la pantalla del resultado. El SVG descargado de Google Drawings se utilizó para generar PNG y PDF de una página; se revisó el renderizado completo. La exportación convierte los textos en trazados, por lo que la ficha Markdown constituye la alternativa de lectura textual.
 
 ## Informe LaTeX y APA 7: 8 de octubre de 2026
 

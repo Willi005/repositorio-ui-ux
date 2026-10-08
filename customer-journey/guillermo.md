@@ -1,62 +1,68 @@
-# Customer Journey de Guillermo
+# Customer Journey: Guillermo
 
-**Perfil:** 51 años, conductor de carga, Temuco.
+**Profile:** 51-year-old freight driver from Temuco, Chile.
 
-**Objetivo:** aclarar su jornada y preparar una consulta respaldada ante la DT.
+**Goal:** understand his working hours and prepare an informed inquiry to DT (Chile's Labor Directorate).
 
-**Escenario:** considera que existen horas impagas, encuentra información contradictoria y teme represalias. No se conoce todavía su régimen de transporte/jornada.
+**Scenario:** Guillermo wants to clarify working hours he believes have not been paid. He encounters conflicting information and fears retaliation. The working-time rules that apply to his transport work have not yet been identified.
 
-**Tipo:** recorrido propuesto e hipótesis para validar; no describe una entrevista ni un caso real observado. El uso del celular y la elección de canales son supuestos.
+**Type:** proposed journey based on the UX persona, value proposition and benchmark. The sequence, channels, devices and emotions are hypotheses to validate, rather than findings from an interview or an observed case.
 
-[Google Drawing editable](https://docs.google.com/drawings/d/1HmiUZjjn4FukMQQF9UjHnj1F81ZRwnVklLkbzSECMUQ/edit) · [PDF](guillermo.pdf) · [SVG](guillermo.svg)
+[Editable Google Drawing](https://docs.google.com/drawings/d/1HmiUZjjn4FukMQQF9UjHnj1F81ZRwnVklLkbzSECMUQ/edit) · [PDF](guillermo.pdf) · [SVG](guillermo.svg)
 
-![Customer Journey de Guillermo](guillermo.png)
+![Customer Journey: Guillermo](guillermo.png)
 
-## Acciones y puntos de contacto
+## Actions and touchpoints
 
-| Etapa | Acción | Punto de contacto / canal | Actividad concreta | Emoción inferida |
+| Stage | Action shown on the map | Touchpoint / channel | Activity | Hypothesized emotion |
 | --- | --- | --- | --- | --- |
-| Búsqueda | 1. Revisar liquidaciones | Liquidaciones, contrato y registros propios | Comparar pagos con las actividades registradas. | Esperanza de aclarar la diferencia |
-| Búsqueda | 2. Preguntar a un colega | Conversación con colega | Pedir referencias sin comunicar datos innecesarios. | Inquietud por respuestas distintas |
-| Búsqueda | 3. Buscar en internet | Buscador en celular, supuesto por validar | Buscar una explicación pertinente a su trabajo. | Duda ante fuentes contradictorias |
-| Búsqueda | 4. Abrir guía laboral | Entrada pública del asistente propuesto | Elegir jornada y pagos, sin cuenta inicial. | Temor a exponerse |
-| Verificación | 5. Indicar tipo de transporte | Preguntas breves del asistente | Aclarar modalidad de transporte antes de aplicar una regla. | Esperanza al reconocer su contexto |
-| Verificación | 6. Describir jornada y pagos | Preguntas del asistente y registros propios | Distinguir conducción, espera y otras tareas. | Inquietud por registros incompletos |
-| Verificación | 7. Revisar fuente oficial | Respuesta propuesta y enlace a la DT | Contrastar la explicación con el respaldo oficial. | Frustración si la fuente no resuelve su caso |
-| Verificación | 8. Reconocer datos faltantes | Aviso de límites junto a la respuesta | Identificar qué antecedentes faltan para interpretar pagos. | Temor e incertidumbre |
-| Orientación | 9. Ordenar antecedentes | Checklist y documentos propios | Reunir contrato, liquidaciones y registros disponibles. | Cautela; empieza a recuperar control |
-| Orientación | 10. Preparar preguntas | Resumen opcional del asistente | Anotar dudas para una consulta humana. | Claridad gradual |
-| Orientación | 11. Elegir canal DT | Derivación al portal, teléfono u oficina oficial | Comparar canales y elegir por sí mismo. | Expectativa de apoyo |
-| Orientación | 12. Revisar requisitos | Información publicada por el canal elegido | Revisar datos y antecedentes que solicita el canal oficial. | Cautela al entregar información |
-| Seguimiento | 13. Consultar en la DT | Atención oficial de la DT | Solicitar orientación sobre la situación y próximos pasos. | Alivio por contar con apoyo |
-| Seguimiento | 14. Guardar comprobante | Comprobante oficial si se entrega y archivo propio | Conservar la evidencia de la consulta o gestión. | Control parcial |
-| Seguimiento | 15. Revisar lo pendiente | Respuesta oficial y lista personal | Identificar antecedentes o respuestas aún pendientes. | Inquietud por la espera |
-| Seguimiento | 16. Retomar orientación | Resumen propio y atención oficial | Volver a las dudas restantes y decidir cómo continuar. | Frustración posible si sigue sin resolución |
+| Search | 1. Review payslips | Payslips, contract and personal records | Compare recorded activities with reported payments. | Hope of understanding the difference |
+| Search | 2. Ask a colleague | Conversation with a colleague | Ask for guidance without disclosing unnecessary personal information. | Concern about inconsistent answers |
+| Search | 3. Search online | Search engine; mobile use is a hypothesis | Look for an explanation relevant to his work. | Doubt about conflicting sources |
+| Search | 4. Open labor guidance | Public entry to the proposed assistant | Select working hours and pay without creating an account. | Fear of being identified |
+| Verification | 5. Describe transport type | Brief questions in the assistant | Identify the type of transport before applying a working-time rule. | Hope when his context is recognized |
+| Verification | 6. Describe hours and pay | Assistant questions and personal records | Distinguish driving, waiting and other tasks. | Concern about incomplete records |
+| Verification | 7. Check official sources | Proposed answer and official DT link | Compare the explanation with its official source. | Frustration if the source does not settle his question |
+| Verification | 8. Spot missing information | Limits shown beside the answer | Identify the information still needed to interpret his pay. | Fear and uncertainty |
+| Guidance | 9. Organize documents | Checklist and personal documents | Gather the contract, payslips and available records. | Caution and gradually regained control |
+| Guidance | 10. Prepare questions | Optional assistant summary | Write questions for a human advisor. | Gradually improved clarity |
+| Guidance | 11. Choose a DT channel | Official DT website, telephone or office | Compare options and choose a channel himself. | Hope of receiving support |
+| Guidance | 12. Check requirements | Published information for the chosen channel | Review the information and documents that the official channel requests. | Caution about sharing personal information |
+| Follow-up | 13. Contact DT | Official DT service | Ask for guidance on his situation and possible next steps. | Relief at receiving support |
+| Follow-up | 14. Save the receipt | Official receipt, if provided, and personal files | Keep evidence of the inquiry or procedure. | Partial sense of control |
+| Follow-up | 15. Review pending items | Official response and personal checklist | Identify information or responses still pending. | Concern about waiting |
+| Follow-up | 16. Return to guidance | Personal summary and official support | Revisit unresolved questions and decide how to continue. | Possible frustration if the issue remains unresolved |
 
-La posición vertical de las tarjetas organiza las acciones dentro de la plantilla; la línea roja expresa la trayectoria emocional cualitativa. Las emociones por acción detallan hipótesis y no son puntuaciones de satisfacción.
+The action labels retain the original template's layout. The red line represents a qualitative emotional journey; it is not a numerical satisfaction score. Horizontal position indicates the order of actions, rather than dates or legal deadlines.
 
-## Valor, barreras y oportunidades
+## Value, barriers and opportunities
 
-| Etapa | Valor esperado y propuesto | Barrera | Oportunidad |
+| Stage | Value | Barriers | Opportunities |
 | --- | --- | --- | --- |
-| Búsqueda | Esperado: información confiable. Propuesto: guía simple para iniciar una consulta sin cuenta. | Fuentes contradictorias; desconoce sus derechos y teme exponerse. | Entrada por problema y lenguaje simple; orientación inicial sin identificarlo. |
-| Verificación | Esperado: saber qué regla aplica. Propuesto: contexto, fuente oficial y datos que faltan. | Régimen de transporte no definido; confunde conducción, espera y otras tareas. | Preguntar tipo de transporte y jornada; fuente junto a la explicación. |
-| Orientación | Esperado: saber cómo pedir ayuda. Propuesto: antecedentes y requisitos del canal DT. | Temor a represalias; no sabe qué datos exige una consulta o denuncia. | Checklist y elección de canal; explicar privacidad y límites sin prometer anonimato. |
-| Seguimiento | Esperado: continuidad y control. Propuesto: resumen y pendientes, sin prometer resolución. | Espera de respuesta; riesgo de perder documentos y comprobantes. | Resumen guardable por elección; separar orientación del estado de un trámite. |
+| Search | **Expected:** clear, reliable guidance. **Proposed:** a simple starting point without an account. | Conflicting information, unfamiliar rights and fear of being identified. | Start with the problem, use plain language and offer initial guidance without identification. |
+| Verification | **Expected:** know which rules apply. **Proposed:** context, official sources and missing information. | Unclear working-time rules; difficulty separating driving, waiting and other tasks. | Ask about transport and working hours; place the official source beside the explanation. |
+| Guidance | **Expected:** know how to seek help. **Proposed:** documents and requirements for the chosen DT channel. | Fear of retaliation; unclear data requirements for an inquiry or complaint. | Provide a checklist and channel options; explain privacy and limits without promising anonymity. |
+| Follow-up | **Expected:** continuity and control. **Proposed:** a summary and next steps, without promising a resolution. | Waiting for a response and risk of losing documents or receipts. | Offer an optional saved summary; distinguish guidance from the status of an official procedure. |
 
-## Momento clave
+## Key moment
 
-Identificar el régimen de jornada y reconocer qué antecedentes faltan antes de interpretar las horas impagas. La interfaz debe ofrecer una explicación respaldada y una consulta humana si el contexto sigue incompleto.
+Identify the applicable working-time rules and missing information **before interpreting pay**. If context remains incomplete, the interface should explain its limits, show the official source and help Guillermo prepare a human inquiry.
 
-## Trazabilidad y comprobación
+## Emotions
 
-| Origen | Decisión | Qué validar |
+The original template's nine symbols are labeled in English: **Hope, Concern, Doubt, Fear, Frustration, Excitement, Surprise, Relief and Optimism**. The legend supports reading the map; it does not imply that every emotion was observed or that every symbol appears on the curve. Later stages may include renewed frustration during waiting. Guidance does not guarantee payment or a favorable resolution.
+
+## Traceability and validation
+
+| Basis | Design decision | What to validate |
 | --- | --- | --- |
-| Persona de Guillermo: información contradictoria y temor a represalias. | Entrada por problema y orientación inicial sin identificación. | Entiende qué datos requiere cada canal y qué información decide compartir. |
-| Canvas: respaldo normativo y confianza; benchmark DT03. | Fuente junto a la explicación y límites visibles. | Distingue respaldo general de una confirmación de su pago. |
-| Benchmark SU02–SU03: clasificación antes de orientar. | Preguntar transporte, jornada y registros. | Reconoce los datos que faltan antes de interpretar su caso. |
-| Benchmark CA02–CA03: requisitos y opciones de atención. | Preparar antecedentes y elegir canal DT. | Explica adónde acudir, por qué y con qué antecedentes. |
+| Guillermo's persona: conflicting information and fear of retaliation | Start with the problem and offer initial guidance without identification. | Whether users understand each channel's data requirements and what they choose to share. |
+| Value proposition: evidence and trust; benchmark DT03 | Place official sources and limitations beside the explanation. | Whether users distinguish general guidance from confirmation of their individual payment. |
+| Benchmark SU02-SU03: classification before guidance | Ask about transport, working hours and records. | Whether users recognize missing information before interpreting their situation. |
+| Benchmark CA02-CA03: requirements and contact options | Prepare documents and offer a choice of DT channels. | Whether users can explain where to go, why and what to bring. |
 
-Los hallazgos del benchmark proceden de la revisión del 5 de octubre de 2026. Este mapa no agrega una interpretación legal individual, un cálculo de horas extra ni una promesa de anonimato o resolución.
+Benchmark observations date from October 5, 2026. This redesign was prepared on October 8, 2026. It does not add an individual legal interpretation, an overtime calculation or a promise of anonymity.
 
-[Metodología, plantilla y mantenimiento](README.md) · [Benchmark](../benchmark/README.md) · [Personas UX](../README.md).
+Validate the journey with representative participants using fictional documents and a think-aloud session. Ask participants to describe their emotions without imposing the legend, then revise the curve using their accounts. The proposed assistant has not yet been implemented or tested with users.
+
+[Method, template and maintenance](README.md) · [Benchmark](../benchmark/README.md) · [UX personas](../README.md)

@@ -57,6 +57,8 @@ Se comparan **Dirección del Trabajo** (directo), **SUSESO** (análogo) y **Chil
 
 ### 4. Customer Journey
 
+El mapa y su ficha de contenido se entregan en **inglés**, por solicitud expresa. El rediseño conserva la estructura original de la plantilla del docente y mejora contraste, tipografía y claridad de las etiquetas.
+
 [Customer Journey de Guillermo](customer-journey/README.md) · [Plantilla completada en Google Drawings](https://docs.google.com/drawings/d/1HmiUZjjn4FukMQQF9UjHnj1F81ZRwnVklLkbzSECMUQ/edit) · [PDF](customer-journey/guillermo.pdf).
 
 Una sola entrega, centrada en el conductor de carga de 51 años que necesita aclarar su jornada y horas impagas. Conserva la composición de la plantilla del docente: cuatro etapas, dieciséis acciones, línea emocional, valor, barreras, oportunidades y momento clave.

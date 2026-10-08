@@ -16,11 +16,11 @@ python scripts/build_benchmark.py
 
 La composición se edita en la [plantilla completada de Google Drawings](https://docs.google.com/drawings/d/1HmiUZjjn4FukMQQF9UjHnj1F81ZRwnVklLkbzSECMUQ/edit). La ficha textual [guillermo.md](../customer-journey/guillermo.md) se mantiene junto al dibujo; los scripts del benchmark no generan mapas de personas ni sobrescriben esta entrega.
 
-La copia SVG vigente conserva la geometría y el texto del dibujo visible, incorpora los símbolos de la plantilla original y utiliza Liberation Sans para renderizar localmente. PNG y PDF se reproducen con librsvg (`rsvg-convert`):
+La copia SVG vigente es una exportación nativa de Google Drawings, con los textos en inglés convertidos por Google en trazados. PNG y PDF se reproducen con librsvg (`rsvg-convert`):
 
 ```bash
 rsvg-convert -w 2216 -h 2564 customer-journey/guillermo.svg -o customer-journey/guillermo.png
 rsvg-convert -f pdf customer-journey/guillermo.svg -o customer-journey/guillermo.pdf
 ```
 
-Para cambios de composición, editar el Google Drawing, usar Archivo → Descargar cuando esté disponible y reemplazar las copias locales tras revisar textos y recortes. La edición de contenido requiere actualizar también la ficha Markdown. [Detalle de la copia local y de la plantilla](../customer-journey/README.md).
+Para cambios de composición, editar el Google Drawing, usar Archivo → Descargar → Gráficos vectoriales escalables y reemplazar `guillermo.svg`; después ejecutar los comandos anteriores y revisar textos y recortes. La edición de contenido requiere actualizar también la ficha Markdown en inglés. Google Drawings conserva los objetos y textos editables; el SVG exportado y el PDF contienen trazados. [Detalle de la copia local y de la plantilla](../customer-journey/README.md).
