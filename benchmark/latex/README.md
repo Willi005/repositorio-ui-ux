@@ -18,6 +18,8 @@ El comando necesita `pdflatex` y los paquetes indicados en `preamble.tex`, dispo
 
 Las imágenes se leen directamente de `benchmark/capturas/` y el mapa de `benchmark/feature-map.pdf`. LaTeX no vuelve a investigar ni sustituye las capturas. Las fuentes Markdown y el HTML se conservan como lectura alternativa; una edición de contenido debe reflejarse también en el LaTeX, porque no se sincronizan automáticamente.
 
+El README principal muestra `benchmark/portada-informe.png` como vista previa enlazada al PDF completo. Después de recompilar una edición, [regenerar la portada con Poppler](../../scripts/README.md) para mantenerla actualizada.
+
 ## Criterio de formato
 
 Se aplicó la [guía oficial de trabajos estudiantiles APA 7](https://apastyle.apa.org/instructional-aids/student-paper-setup-guide.pdf): papel carta, márgenes de 2,54 cm, familia Times a 12 puntos, cuerpo y referencias a doble espacio, alineación izquierda, sangría de primera línea y francesa de 1,27 cm, número de página desde la portada y títulos sin numeración. Tablas sin líneas verticales; números en negrita, títulos en cursiva y notas de fuente. Las celdas densas de la matriz usan 10 puntos e interlineado simple en páginas horizontales; las notas mantienen doble espacio.

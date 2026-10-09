@@ -53,6 +53,12 @@ El Canvas relaciona tareas, frustraciones y beneficios con explicación simple, 
 
 Se comparan **Dirección del Trabajo** (directo), **SUSESO** (análogo) y **ChileAtiende** (referencia de diseño). Incluye nueve capturas anotadas, diez dimensiones base, cuatro del dominio y decisiones propuestas para el prototipo. Fecha: 5 de octubre de 2026; alcance documental e interfaces públicas.
 
+El **informe de 27 páginas** reúne metodología, evidencias, análisis y recomendaciones para la propuesta. Está elaborado en LaTeX con cuerpo y referencias APA 7 y portada institucional UFRO adaptada. La portada siguiente abre el PDF completo.
+
+[![Portada del informe de benchmarking: abrir PDF completo](benchmark/portada-informe.png)](benchmark/benchmark.pdf)
+
+El mapa resume las capacidades observadas y las oportunidades de diseño identificadas:
+
 ![Mapa comparativo de funcionalidades](benchmark/feature-map.png)
 
 ### 4. Customer Journey
