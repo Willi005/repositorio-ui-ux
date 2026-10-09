@@ -1,0 +1,137 @@
+[
+  {
+    "id": "direccion-trabajo-01",
+    "url": "https://www.dt.gob.cl/portal/1626/w3-channel.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "benchmark/capturas/direccion-trabajo/01-original.jpg",
+    "annotated": "benchmark/capturas/direccion-trabajo/01-anotada.png",
+    "comments": [
+      "1. Acceso visible para trabajadores: permite reconocerse por perfil.",
+      "2. Aviso de Clave Tributaria: antecede a la tarea del trabajador (H8)."
+    ]
+  },
+  {
+    "id": "direccion-trabajo-02",
+    "url": "https://www.dt.gob.cl/portal/1626/w3-article-117245.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "benchmark/capturas/direccion-trabajo/02-original.jpg",
+    "annotated": "benchmark/capturas/direccion-trabajo/02-anotada.png",
+    "comments": [
+      "1. Distingue trámite web y presencial; permite elegir canal.",
+      "2. «Ministro de fe» aparece sin explicación inmediata (H2)."
+    ]
+  },
+  {
+    "id": "direccion-trabajo-03",
+    "url": "https://www.dt.gob.cl/portal/1626/w3-article-117245.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "benchmark/capturas/direccion-trabajo/03-original.jpg",
+    "annotated": "benchmark/capturas/direccion-trabajo/03-anotada.png",
+    "comments": [
+      "1. Ofrece consulta y teléfono: puente visible a atención humana.",
+      "2. Vincula el artículo aplicable, aunque al final de la ficha extensa."
+    ]
+  },
+  {
+    "id": "suseso-01",
+    "url": "https://www.suseso.gob.cl/606/w3-propertyvalue-610.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "benchmark/capturas/suseso/01-original.jpg",
+    "annotated": "benchmark/capturas/suseso/01-anotada.png",
+    "comments": [
+      "1. Reclamar y seguir un reclamo se presentan como tareas distintas.",
+      "2. El orientador explica que prepara antecedentes para el reclamo."
+    ]
+  },
+  {
+    "id": "suseso-02",
+    "url": "https://www.suseso.gob.cl/606/w3-propertyname-509.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "benchmark/capturas/suseso/02-original.jpg",
+    "annotated": "benchmark/capturas/suseso/02-anotada.png",
+    "comments": [
+      "1. Permite elegir la orientación para trabajadores antes del motivo.",
+      "2. La ruta visible ayuda a reconocer la ubicación en el sitio."
+    ]
+  },
+  {
+    "id": "suseso-03",
+    "url": "https://www.suseso.gob.cl/606/w3-propertyvalue-586.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "benchmark/capturas/suseso/03-original.jpg",
+    "annotated": "benchmark/capturas/suseso/03-anotada.png",
+    "comments": [
+      "1. «Pronunciada por COMPIN» exige vocabulario institucional (H2).",
+      "2. Los controles de texto cubren parte de «Volver» en esta vista (H3/H8)."
+    ]
+  },
+  {
+    "id": "chileatiende-01",
+    "url": "https://www.chileatiende.gob.cl/fichas/33522",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "benchmark/capturas/chileatiende/01-original.jpg",
+    "annotated": "benchmark/capturas/chileatiende/01-anotada.png",
+    "comments": [
+      "1. Muestra actualización: hace visible la fecha del contenido.",
+      "2. «Ratificar» domina sobre «Ayuda» antes de verificar el caso (H5/H8)."
+    ]
+  },
+  {
+    "id": "chileatiende-02",
+    "url": "https://www.chileatiende.gob.cl/fichas/33522",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "benchmark/capturas/chileatiende/02-original.jpg",
+    "annotated": "benchmark/capturas/chileatiende/02-anotada.png",
+    "comments": [
+      "1. Explica acceso web con ClaveÚnica y alternativa presencial.",
+      "2. Acordeón por tarea: despliega la información cuando se solicita."
+    ]
+  },
+  {
+    "id": "chileatiende-03",
+    "url": "https://www.chileatiende.gob.cl/red-de-atencion",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "benchmark/capturas/chileatiende/03-original.jpg",
+    "annotated": "benchmark/capturas/chileatiende/03-anotada.png",
+    "comments": [
+      "1. Tarjetas comparan videoatención, teléfono y formulario por canal.",
+      "2. Cabecera y tipografía cambian respecto de la ficha CA01 (H4)."
+    ]
+  }
+]

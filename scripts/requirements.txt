@@ -1,0 +1,4 @@
+pillow==12.3.0
+cairosvg==2.9.1
+markdown==3.11
+weasyprint==70.0
