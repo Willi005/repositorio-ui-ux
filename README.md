@@ -1,87 +1,86 @@
-# Diseño de Interfaz Humano Computador
+# Human-Computer Interface Design
 
-Repositorio del proyecto semestral de Diseño de Interfaz Humano Computador de la Universidad de La Frontera (UFRO), Temuco, Chile. Registra las actividades y decisiones de diseño de una propuesta de orientación laboral asistida por IA con verificación.
+Semester project repository for the Human-Computer Interface Design course at the University of La Frontera (UFRO), Temuco, Chile. It records each completed course activity and the design decisions behind an AI-assisted labor rights guidance concept.
 
-## Equipo
+## Course team
 
-| Rol | Nombre |
+| Role | Name |
 | --- | --- |
-| Docente | Jaime Ignacio Diaz |
-| Líder | Guillermo Salgado |
-| Integrante | Benjamin Fonseca |
-| Integrante | Jose Villablanca |
+| Instructor | Jaime Ignacio Diaz |
+| Team leader | Guillermo Salgado |
+| Team member | Benjamin Fonseca |
+| Team member | Jose Villablanca |
 
-## Proyecto seleccionado
+## Selected project
 
-**Orientación en derechos laborales asistida por IA con verificación** aborda un problema de confianza: una IA conversacional puede ofrecer respuestas plausibles pero incorrectas sobre despidos, finiquitos o licencias médicas. La experiencia propuesta debe explicar en lenguaje simple, mostrar el respaldo normativo, comunicar sus límites y facilitar atención del organismo competente cuando haga falta.
+**Verified AI-assisted labor rights guidance** addresses a trust problem: conversational AI may give plausible but incorrect answers about dismissals, severance settlements, or medical leave. The proposed experience should explain labor rights in plain language, cite the applicable rules, communicate uncertainty and its own limits, and guide people to the Labor Inspectorate when their case requires official assistance.
 
-El encargo clasifica el proyecto en el dominio **laboral**, con **complejidad UX alta**. El escenario representativo es un trabajador que recibe un finiquito que no comprende y necesita decidir cómo proceder con información y apoyo adecuados. [Contexto y requisitos del proyecto](docs/project-brief.md).
+The course classifies this initiative in the **labor** domain with **high UX complexity**. Its representative scenario is a worker who receives a severance settlement they do not understand and needs to decide whether to sign it or seek help.
 
-## Actividades
+Read the [project brief](docs/project-brief.md) for the translated assignment context, design requirements, and selected problem.
 
-### 1. Personas UX
+## Completed activities
 
-Tres perfiles describen situaciones y necesidades distintas. Las imágenes originales se conservan como antecedente. El perfil de conductor figura como «William» en el título de la imagen y «Guillermo» en su descripción; la entrega definitiva del Customer Journey conserva el nombre **William** del documento proporcionado por el equipo.
+### 1. UX personas
 
-| Persona | Situación | Necesidad principal |
+We created three personas to describe distinct labor rights situations and the information each worker needs. Their goals and frustrations frame the language, trust cues, and referral paths the interface must support.
+
+| Persona | Situation | Main need |
 | --- | --- | --- |
-| Benjamin | Vendedor de retail, primera licencia médica | Guía simple, paso a paso y sin jerga. |
-| Guillermo | Conductor de carga, horas que considera impagas | Información pertinente a su jornada y una ruta discreta de orientación. |
-| Joseph | Bodeguero, revisión de finiquito tras despido | Entender conceptos y antecedentes antes de decidir. |
+| Benjamin | A retail worker navigating his first medical leave | Simple, step-by-step guidance without legal jargon |
+| William | A cargo transport driver checking unpaid overtime | Reliable information and a discreet route to a complaint |
+| Joseph | A warehouse worker reviewing a severance settlement after dismissal | Understand the calculation before deciding whether to sign |
 
 #### Benjamin
 
-![Persona UX Benjamin](ux-personas/1.png)
+![Benjamin UX persona: a retail worker navigating his first medical leave](ux-personas/1.png)
 
-#### Guillermo
+#### William
 
-![Persona UX Guillermo](ux-personas/2.png)
+![William UX persona: a cargo transport driver checking unpaid overtime](ux-personas/2.png)
 
 #### Joseph
 
-![Persona UX Joseph](ux-personas/3.png)
+![Joseph UX persona: a warehouse worker reviewing a severance settlement](ux-personas/3.png)
 
-### 2. Propuesta de valor
+### 2. Value Proposition Canvas
 
-El Canvas relaciona tareas, frustraciones y beneficios con explicación simple, fuentes normativas, verificación, límites y derivación. El [benchmark](benchmark/README.md) propone refinar el destino de derivación por materia y expresar la confianza mediante evidencia y datos faltantes.
+We mapped workers' jobs, pains, and desired gains to the product's proposed features, pain relievers, and benefits. The canvas links needs such as understanding a settlement, handling medical leave, and knowing when to contact the Labor Inspectorate to plain-language guidance, legal citations, visible confidence levels, and referral to the competent authority.
 
-![Canvas de propuesta de valor original](value_proposition.png)
+![Value Proposition Canvas for verified AI-assisted labor rights guidance](value_proposition.png)
 
-### 3. Benchmarking competitivo
+### 3. Competitive benchmarking
 
-[Análisis y hallazgos](benchmark/README.md) · [Tabla comparativa](benchmark/tabla-comparativa.md) · [Informe PDF en APA 7](benchmark/benchmark.pdf) · [Fuentes LaTeX](benchmark/latex/README.md).
+We compared Dirección del Trabajo (DT), SUSESO, and ChileAtiende to identify useful patterns for understandable, verifiable labor rights guidance. The study covers fourteen dimensions and nine annotated public screenshots observed on October 5, 2026. It distinguishes observed features, documented capabilities, and design hypotheses for the proposed product.
 
-Se comparan **Dirección del Trabajo** (directo), **SUSESO** (análogo) y **ChileAtiende** (referencia de diseño). Incluye nueve capturas anotadas, diez dimensiones base, cuatro del dominio y decisiones propuestas para el prototipo. Fecha: 5 de octubre de 2026; alcance documental e interfaces públicas.
+The [full benchmarking report](benchmark/benchmark.pdf) follows APA 7 for the body, citations, and references, with an adapted UFRO institutional cover. Read the [analysis](benchmark/README.md), [comparison matrix](benchmark/tabla-comparativa.md), or [editable LaTeX sources](benchmark/latex/README.md).
 
-El **informe de 27 páginas** reúne metodología, evidencias, análisis y recomendaciones para la propuesta. Está elaborado en LaTeX con cuerpo y referencias APA 7 y portada institucional UFRO adaptada. La portada siguiente abre el PDF completo.
+[![Cover of the English benchmarking report](benchmark/portada-informe.png)](benchmark/benchmark.pdf)
 
-[![Portada del informe de benchmarking: abrir PDF completo](benchmark/portada-informe.png)](benchmark/benchmark.pdf)
-
-El mapa resume las capacidades observadas y las oportunidades de diseño identificadas:
-
-![Mapa comparativo de funcionalidades](benchmark/feature-map.png)
+![Feature comparison map for the three reference services and the proposed product](benchmark/feature-map.png)
 
 ### 4. Customer Journey
 
-El recorrido definitivo de **William**, correspondiente a la persona del conductor de carga, muestra cómo pasa de revisar sus pagos a preparar una consulta ante la Dirección del Trabajo. Está en inglés y organiza **doce acciones en cuatro etapas**: Search, Verification, Guidance y Follow-up, con curva emocional, valor, barreras y oportunidades.
+We mapped William's journey from noticing potentially unpaid hours to preparing a consultation with the Labor Directorate. The definitive map contains twelve actions across Search, Verification, Guidance, and Follow-up, with an emotional curve, value, barriers, and opportunities. The proposed journey and emotions are hypotheses to validate; outcomes are not guaranteed.
 
-El momento clave es identificar la regla de jornada aplicable, su respaldo y el nivel de confianza antes de interpretar el pago. El recorrido y las emociones son hipótesis para validar.
+[View the definitive Customer Journey PDF](customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) or read its [brief explanation](customer-journey/README.md).
 
-[Documento definitivo en PDF](customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) · [Descripción de la entrega](customer-journey/README.md).
+[![William's definitive Customer Journey](customer-journey/definitivo.png)](customer-journey/Customer%20Journey%20%C2%B7%20William.pdf)
 
-[![Customer Journey definitivo de William: cuatro etapas, doce acciones y curva emocional](customer-journey/definitivo.png)](customer-journey/Customer%20Journey%20%C2%B7%20William.pdf)
+## Semester workflow
 
-Las observaciones del benchmark proceden de interfaces públicas; no representan entrevistas ni pruebas de trámites autenticados.
+The assignment calls for a full user-centered design process: UX research, problem definition, iterative prototyping, evaluation with users, and a high-fidelity interface proposal. Future activities will be added here as they are completed. Design decisions should remain traceable to the evidence gathered during the semester.
 
-## Proceso semestral
+## Repository contents
 
-El encargo requiere investigación UX, definición del problema, prototipos iterativos, evaluación con usuarios y propuesta de interfaz en alta fidelidad. Cada decisión debe poder justificarse con la evidencia recopilada. Las actividades actuales alimentan Estrategia y Alcance y preparan el flujo de navegación.
-
-## Organización
-
-- `docs/`: contexto del encargo y comprobación de la pauta.
-- `ux-personas/` y `value_proposition.png`: artefactos originales.
-- `benchmark/`: análisis, tabla, mapa, PDF y capturas por herramienta.
-- `customer-journey/`: PDF definitivo de William y vista previa PNG para el README.
-- `research_notes/` y `reports/`: fuentes y síntesis de la investigación.
-- `scripts/`: reproducción de los artefactos visuales y del informe.
+```text
+.
+├── README.md
+├── docs/
+│   └── project-brief.md
+├── ux-personas/
+│   ├── 1.png
+│   ├── 2.png
+│   └── 3.png
+└── value_proposition.png
+```
