@@ -1,23 +1,26 @@
-# Project brief
+# Contexto del proyecto
 
-## Course context
+## Encargo de la asignatura
 
-The course presented 16 potential projects. Each group selects one problem and completes the full user-centered design (UCD) process: UX research, problem definition, iterative prototyping, user evaluation, and a high-fidelity interface proposal. Assessment emphasizes the traceability of design decisions: each element of the final proposal should be supported by evidence gathered during the process. The stated UX complexity indicates the expected depth of the process, rather than the number of features to build.
+Se presentaron 16 iniciativas. Cada grupo debe elegir una problemática y completar el proceso de Diseño Centrado en el Usuario (UCD): investigación UX, definición del problema, prototipado iterativo, evaluación con usuarios y propuesta de interfaz en alta definición.
 
-## Selected initiative
+La evaluación privilegia la trazabilidad: cada elemento de la propuesta debe poder explicarse desde la evidencia recopilada. La complejidad UX determina la profundidad del proceso, no la cantidad de funciones.
 
-**Initiative 16: Verified AI-assisted labor rights guidance**
+## Iniciativa seleccionada
 
-- **Domain:** Labor
-- **UX complexity:** High
-- **Context:** In situations involving dismissal, severance settlements, or medical leave, a conversational assistant may generate plausible but inaccurate guidance. Acting on an incorrect answer could have legal consequences.
-- **Core design challenge:** Calibrate trust by showing the legal basis for guidance, clearly stating the assistant's limits, distinguishing general guidance from legal advice, and making referral to the competent authority part of the main user journey.
+**Iniciativa 16: Orientación en derechos laborales asistida por IA con verificación.**
 
-### Representative user story
+- **Dominio:** laboral.
+- **Complejidad UX:** alta.
+- **Contexto:** en despidos, finiquitos y licencias médicas, una IA conversacional puede generar orientación plausible pero inexacta. Actuar sobre ella puede afectar decisiones del trabajador.
+- **Desafío central:** calibrar la confianza mediante fundamento normativo visible, límites explícitos, distinción entre orientación y asesoría jurídica, y derivación a la autoridad competente como parte del recorrido principal.
 
-> As a worker who has been offered a severance settlement I do not understand, I need plain-language guidance that identifies the relevant rule and communicates how confident the answer is, so I can decide whether to sign or contact the Labor Inspectorate.
+### Historia representativa
 
-## Current design artifacts
+> Como trabajador que recibió un finiquito que no entiende, necesito orientación simple que identifique la norma relevante y explique su grado de respaldo, para decidir cómo proceder o pedir ayuda a la Inspección del Trabajo.
 
-- [UX personas](../README.md#1-ux-personas) cover medical leave, unpaid overtime, and severance settlement scenarios.
-- [Value Proposition Canvas](../value_proposition.png) connects those needs to proposed guidance, citations, verification, confidence cues, and referrals.
+## Artefactos y continuidad
+
+Las [personas UX](../README.md) cubren primera licencia, horas impagas y finiquito. El [Canvas](../value_proposition.png) vincula esas necesidades con orientación, fuentes, confianza y derivación. El [benchmark](../benchmark/README.md) y el [Customer Journey](../customer-journey/README.md) proponen precisar el organismo de destino según materia y etapa, y expresar incertidumbre mediante razones y datos faltantes.
+
+El Customer Journey vigente corresponde únicamente a Guillermo y se completó en la plantilla del docente. Es una hipótesis que se debe validar con usuarios y con el equipo. El proyecto aún no implementa un asistente ni una gestión de trámites.
