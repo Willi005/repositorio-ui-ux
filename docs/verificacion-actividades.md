@@ -20,39 +20,24 @@ Benchmark: **5 de octubre de 2026**. Corrección del Customer Journey: **8 de oc
 
 **Alcance pendiente de validación:** no se completaron cuentas ni trámites autenticados, pruebas de errores/confirmaciones de expedientes o reseñas de usuarios. La pauta recomienda esa exploración: el documento declara la limitación y no simula evidencia. El mapa requiere revisión colaborativa del equipo; no se afirma haber realizado esa reunión. El benchmarking es una base documental y una inspección pública para profundizar, no una evaluación de desempeño ni auditoría de accesibilidad.
 
-## Plantilla y Customer Journey
+## Customer Journey definitivo
 
-| Requisito | Evidencia preparada |
+El usuario reemplazó los archivos del recorrido anterior por `customer-journey/Customer Journey · William.pdf` y declaró ese documento como definitivo. El PDF se conserva sin modificación; la imagen `definitivo.png` se renderiza desde él para mostrarlo en el README principal.
+
+| Contenido | Evidencia del PDF definitivo |
 | --- | --- |
-| Formato del profesor | Google Drawing completado directamente, conservando su composición y objetos editables. |
-| Alcance corregido | Una sola entrega de Guillermo, conductor de carga de 51 años en Temuco. |
-| Puntos de contacto y actividades | Dieciséis acciones distribuidas en búsqueda, verificación, orientación y seguimiento. |
-| Canales y dispositivos | Detallados por acción en la ficha Markdown; celular como supuesto por validar. |
-| Curva y descripción de emociones | Línea cualitativa y leyenda de nueve emociones; detalle inferido por acción, sin puntuaciones medidas. |
-| Valor, barreras y oportunidades | Doce recuadros completos: cuatro de cada dimensión. |
-| Momento clave | Identificar régimen de jornada y antecedentes faltantes antes de interpretar pagos. |
-| Trazabilidad y validación | Relación entre persona, Canvas, benchmark, decisiones y preguntas de validación. |
-| Archivos | Fuente editable en Google Drawings; copia SVG, PNG, PDF de una página, ficha Markdown y captura del documento guardado. |
+| Persona | William, correspondiente al conductor de carga de la persona UX. |
+| Idioma | Inglés en todo el mapa. |
+| Etapas | Search, Verification, Guidance y Follow-up. |
+| Acciones | Doce acciones numeradas, tres por etapa. |
+| Emociones | Doce etiquetas y curva cualitativa; se declaran hipótesis. |
+| Filas inferiores | Valor, barreras y oportunidades para cada etapa. |
+| Momento clave | Identificar la regla de jornada aplicable con cita y confianza antes de interpretar pagos. |
+| Entrega | PDF definitivo de una página y PNG para GitHub. |
 
-El mapa es una experiencia propuesta. La curva no procede de entrevistas ni expresa una medición. No se inventan montos, plazos ni resultados individuales. La persona original usa «William» en el título y «Guillermo» en la descripción; se adopta el nombre solicitado por el usuario.
+Se revisaron la página completa, su texto y la vista previa; se comprobaron los enlaces locales y la coincidencia del hash del PDF antes y después de preparar la publicación. Las versiones anteriores se retiran del árbol vigente, conservando su historial en Git. El README principal mantiene una explicación breve y una imagen enlazada al PDF.
 
-## Revisión técnica y visual
-
-La revisión inicial del 5 de octubre comprobó nueve capturas anotadas, mapa de funcionalidades e informe de benchmarking de 22 páginas. Esa evidencia conserva su fecha de observación.
-
-La corrección del 8 de octubre se revisó contra el dibujo guardado en Google Drive: cuatro etapas, dieciséis acciones y doce recuadros completos, sin ejemplos turísticos ni marcadores «Actividad» o «Escribir». Se revisaron visualmente la copia PNG y una página renderizada del PDF, además de comprobar los destinos de los enlaces locales y ejecutar `git diff --check`.
-
-La primera corrección utilizó una copia SVG del contenido visible porque la descarga no produjo archivos. La revisión posterior del 8 de octubre reemplaza esa copia por una exportación SVG nativa de Google Drawings. PNG/PDF se renderizan con librsvg; la composición original continúa editable en Google Drawings. Los scripts del benchmark no generan ni recuperan los tres mapas anteriores.
-
-El PDF del Journey tiene una página. Las copias locales anteriores se retiraron de la entrega; permanecen recuperables en Git. Se actualizó la bóveda de Obsidian con este alcance.
-
-La inspección de accesibilidad del benchmark se limita a controles visibles. Los PDF no se presentan como PDF/UA certificados; la ficha Markdown ofrece una alternativa textual a la imagen.
-
-## Rediseño del Customer Journey en inglés: 8 de octubre de 2026
-
-Se conserva el diseño original del docente: cuatro etapas, dieciséis acciones, curva roja, símbolos emocionales, momento clave y doce celdas inferiores. Todos los textos del dibujo y de la ficha `guillermo.md` están en inglés por indicación del usuario. Se acortaron etiquetas y textos, se eliminaron cursivas inconsistentes y se aplicaron tamaños homogéneos y mayor contraste.
-
-Se comprobó el texto visible del dibujo, la ausencia de rótulos en español y la eliminación de un cuadro sobrante. Se verificó el estado guardado en Drive y se capturó la pantalla del resultado. El SVG descargado de Google Drawings se utilizó para generar PNG y PDF de una página; se revisó el renderizado completo. La exportación convierte los textos en trazados, por lo que la ficha Markdown constituye la alternativa de lectura textual.
+Las observaciones del benchmark son del 5 de octubre de 2026. El Journey es una experiencia propuesta y no acredita entrevistas, medición de emociones ni resolución favorable del caso. Los PDF no se presentan como certificados PDF/UA.
 
 ## Informe LaTeX y APA 7: 8 de octubre de 2026
 

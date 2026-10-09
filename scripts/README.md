@@ -12,15 +12,12 @@ python scripts/build_benchmark.py
 
 `generate_artifacts.py` utiliza las capturas originales y las anotaciones de evidencia. Genera nueve PNG anotados y el mapa comparativo en SVG, PNG y PDF. `render_benchmark.py` compone el análisis y la tabla comparativa como HTML autónomo con imágenes embebidas. `build_benchmark.py` compila las fuentes de `benchmark/latex/` y genera el PDF de entrega con formato APA 7 y portada UFRO adaptada. El HTML no sobrescribe ese PDF. [Formato, fuentes y edición](../benchmark/latex/README.md). No consulta ni modifica servicios externos.
 
-## Customer Journey de Guillermo
+## Customer Journey definitivo
 
-La composición se edita en la [plantilla completada de Google Drawings](https://docs.google.com/drawings/d/1HmiUZjjn4FukMQQF9UjHnj1F81ZRwnVklLkbzSECMUQ/edit). La ficha textual [guillermo.md](../customer-journey/guillermo.md) se mantiene junto al dibujo; los scripts del benchmark no generan mapas de personas ni sobrescriben esta entrega.
-
-La copia SVG vigente es una exportación nativa de Google Drawings, con los textos en inglés convertidos por Google en trazados. PNG y PDF se reproducen con librsvg (`rsvg-convert`):
+El PDF [Customer Journey · William](../customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) es la entrega definitiva del usuario. Se conserva sin modificar. Su vista previa para GitHub se genera con Poppler desde la raíz del repositorio:
 
 ```bash
-rsvg-convert -w 2216 -h 2564 customer-journey/guillermo.svg -o customer-journey/guillermo.png
-rsvg-convert -f pdf customer-journey/guillermo.svg -o customer-journey/guillermo.pdf
+pdftoppm -png -singlefile -scale-to 2800 'customer-journey/Customer Journey · William.pdf' customer-journey/definitivo
 ```
 
-Para cambios de composición, editar el Google Drawing, usar Archivo → Descargar → Gráficos vectoriales escalables y reemplazar `guillermo.svg`; después ejecutar los comandos anteriores y revisar textos y recortes. La edición de contenido requiere actualizar también la ficha Markdown en inglés. Google Drawings conserva los objetos y textos editables; el SVG exportado y el PDF contienen trazados. [Detalle de la copia local y de la plantilla](../customer-journey/README.md).
+Los scripts del benchmark no generan ni sobrescriben el Journey. Las copias anteriores se retiraron de la entrega vigente y permanecen recuperables en Git. [Descripción de la entrega](../customer-journey/README.md).

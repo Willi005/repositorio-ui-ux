@@ -21,7 +21,7 @@ El encargo clasifica el proyecto en el dominio **laboral**, con **complejidad UX
 
 ### 1. Personas UX
 
-Tres perfiles describen situaciones y necesidades distintas. Las imágenes originales se conservan como antecedente. El perfil de conductor figura como «William» en el título de la imagen y «Guillermo» en su descripción; el Customer Journey utiliza Guillermo, según la indicación del usuario.
+Tres perfiles describen situaciones y necesidades distintas. Las imágenes originales se conservan como antecedente. El perfil de conductor figura como «William» en el título de la imagen y «Guillermo» en su descripción; la entrega definitiva del Customer Journey conserva el nombre **William** del documento proporcionado por el equipo.
 
 | Persona | Situación | Necesidad principal |
 | --- | --- | --- |
@@ -57,15 +57,15 @@ Se comparan **Dirección del Trabajo** (directo), **SUSESO** (análogo) y **Chil
 
 ### 4. Customer Journey
 
-El mapa y su ficha de contenido se entregan en **inglés**, por solicitud expresa. El rediseño conserva la estructura original de la plantilla del docente y mejora contraste, tipografía y claridad de las etiquetas.
+El recorrido definitivo de **William**, correspondiente a la persona del conductor de carga, muestra cómo pasa de revisar sus pagos a preparar una consulta ante la Dirección del Trabajo. Está en inglés y organiza **doce acciones en cuatro etapas**: Search, Verification, Guidance y Follow-up, con curva emocional, valor, barreras y oportunidades.
 
-[Customer Journey de Guillermo](customer-journey/README.md) · [Plantilla completada en Google Drawings](https://docs.google.com/drawings/d/1HmiUZjjn4FukMQQF9UjHnj1F81ZRwnVklLkbzSECMUQ/edit) · [PDF](customer-journey/guillermo.pdf).
+El momento clave es identificar la regla de jornada aplicable, su respaldo y el nivel de confianza antes de interpretar el pago. El recorrido y las emociones son hipótesis para validar.
 
-Una sola entrega, centrada en el conductor de carga de 51 años que necesita aclarar su jornada y horas impagas. Conserva la composición de la plantilla del docente: cuatro etapas, dieciséis acciones, línea emocional, valor, barreras, oportunidades y momento clave.
+[Documento definitivo en PDF](customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) · [Descripción de la entrega](customer-journey/README.md).
 
-![Customer Journey de Guillermo](customer-journey/guillermo.png)
+[![Customer Journey definitivo de William: cuatro etapas, doce acciones y curva emocional](customer-journey/definitivo.png)](customer-journey/Customer%20Journey%20%C2%B7%20William.pdf)
 
-El recorrido y las emociones son hipótesis para validar. Las observaciones del benchmark proceden de interfaces públicas; no representan entrevistas ni pruebas de trámites autenticados.
+Las observaciones del benchmark proceden de interfaces públicas; no representan entrevistas ni pruebas de trámites autenticados.
 
 ## Proceso semestral
 
@@ -76,6 +76,6 @@ El encargo requiere investigación UX, definición del problema, prototipos iter
 - `docs/`: contexto del encargo y comprobación de la pauta.
 - `ux-personas/` y `value_proposition.png`: artefactos originales.
 - `benchmark/`: análisis, tabla, mapa, PDF y capturas por herramienta.
-- `customer-journey/`: un recorrido de Guillermo, ficha textual, copia SVG, PNG, PDF y captura de Google Drawings.
+- `customer-journey/`: PDF definitivo de William y vista previa PNG para el README.
 - `research_notes/` y `reports/`: fuentes y síntesis de la investigación.
 - `scripts/`: reproducción de los artefactos visuales y del informe.
