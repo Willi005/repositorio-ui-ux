@@ -10,8 +10,8 @@
     "original": "benchmark/capturas/direccion-trabajo/01-original.jpg",
     "annotated": "benchmark/capturas/direccion-trabajo/01-anotada.png",
     "comments": [
-      "1. Acceso visible para trabajadores: permite reconocerse por perfil.",
-      "2. Aviso de Clave Tributaria: antecede a la tarea del trabajador (H8)."
+      "1. Visible worker entry helps users recognize their profile.",
+      "2. Tax credential notice appears before the worker task (H8)."
     ]
   },
   {
@@ -25,8 +25,8 @@
     "original": "benchmark/capturas/direccion-trabajo/02-original.jpg",
     "annotated": "benchmark/capturas/direccion-trabajo/02-anotada.png",
     "comments": [
-      "1. Distingue trámite web y presencial; permite elegir canal.",
-      "2. «Ministro de fe» aparece sin explicación inmediata (H2)."
+      "1. Separates online and in-person procedures to support channel choice.",
+      "2. The term for an attesting official lacks an immediate explanation (H2)."
     ]
   },
   {
@@ -40,8 +40,8 @@
     "original": "benchmark/capturas/direccion-trabajo/03-original.jpg",
     "annotated": "benchmark/capturas/direccion-trabajo/03-anotada.png",
     "comments": [
-      "1. Ofrece consulta y teléfono: puente visible a atención humana.",
-      "2. Vincula el artículo aplicable, aunque al final de la ficha extensa."
+      "1. Consultation and phone options provide a visible route to human help.",
+      "2. Links the relevant article, but at the end of a long information page."
     ]
   },
   {
@@ -55,8 +55,8 @@
     "original": "benchmark/capturas/suseso/01-original.jpg",
     "annotated": "benchmark/capturas/suseso/01-anotada.png",
     "comments": [
-      "1. Reclamar y seguir un reclamo se presentan como tareas distintas.",
-      "2. El orientador explica que prepara antecedentes para el reclamo."
+      "1. Filing and tracking a complaint are presented as separate tasks.",
+      "2. The guidance tool explains its role in preparing complaint evidence."
     ]
   },
   {
@@ -70,8 +70,8 @@
     "original": "benchmark/capturas/suseso/02-original.jpg",
     "annotated": "benchmark/capturas/suseso/02-anotada.png",
     "comments": [
-      "1. Permite elegir la orientación para trabajadores antes del motivo.",
-      "2. La ruta visible ayuda a reconocer la ubicación en el sitio."
+      "1. Worker guidance can be selected before the reason for the request.",
+      "2. The visible navigation path helps identify the current location."
     ]
   },
   {
@@ -85,8 +85,8 @@
     "original": "benchmark/capturas/suseso/03-original.jpg",
     "annotated": "benchmark/capturas/suseso/03-anotada.png",
     "comments": [
-      "1. «Pronunciada por COMPIN» exige vocabulario institucional (H2).",
-      "2. Los controles de texto cubren parte de «Volver» en esta vista (H3/H8)."
+      "1. Wording about a COMPIN decision requires institutional vocabulary (H2).",
+      "2. Text controls partly cover Back in this view (H3/H8)."
     ]
   },
   {
@@ -100,8 +100,8 @@
     "original": "benchmark/capturas/chileatiende/01-original.jpg",
     "annotated": "benchmark/capturas/chileatiende/01-anotada.png",
     "comments": [
-      "1. Muestra actualización: hace visible la fecha del contenido.",
-      "2. «Ratificar» domina sobre «Ayuda» antes de verificar el caso (H5/H8)."
+      "1. The displayed update makes the content date visible.",
+      "2. Ratify dominates Help before the case has been verified (H5/H8)."
     ]
   },
   {
@@ -115,8 +115,8 @@
     "original": "benchmark/capturas/chileatiende/02-original.jpg",
     "annotated": "benchmark/capturas/chileatiende/02-anotada.png",
     "comments": [
-      "1. Explica acceso web con ClaveÚnica y alternativa presencial.",
-      "2. Acordeón por tarea: despliega la información cuando se solicita."
+      "1. Explains online access with ClaveÚnica and an in-person alternative.",
+      "2. Task-based accordion reveals information on request."
     ]
   },
   {
@@ -130,8 +130,8 @@
     "original": "benchmark/capturas/chileatiende/03-original.jpg",
     "annotated": "benchmark/capturas/chileatiende/03-anotada.png",
     "comments": [
-      "1. Tarjetas comparan videoatención, teléfono y formulario por canal.",
-      "2. Cabecera y tipografía cambian respecto de la ficha CA01 (H4)."
+      "1. Cards compare video, phone, and form-based service channels.",
+      "2. Header and typography differ from the CA01 information page (H4)."
     ]
   }
 ]

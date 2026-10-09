@@ -53,19 +53,19 @@ def save_svg(path, svg):
 
 CAPTURES = {
 'direccion-trabajo': [
- ('DT · Entrada por tipo de usuario', 'https://www.dt.gob.cl/portal/1626/w3-channel.html', [(160,160,680,432,TEAL),(4,61,850,121,RUST)], ['1. Acceso visible para trabajadores: permite reconocerse por perfil.', '2. Aviso de Clave Tributaria: antecede a la tarea del trabajador (H8).']),
- ('DT · Explicación y requisitos del finiquito', 'https://www.dt.gob.cl/portal/1626/w3-article-117245.html', [(45,420,804,518,TEAL),(43,339,803,379,RUST)], ['1. Distingue trámite web y presencial; permite elegir canal.', '2. «Ministro de fe» aparece sin explicación inmediata (H2).']),
- ('DT · Ayuda y fundamento normativo', 'https://www.dt.gob.cl/portal/1626/w3-article-117245.html', [(40,325,810,428,TEAL),(38,450,810,517,TEAL)], ['1. Ofrece consulta y teléfono: puente visible a atención humana.', '2. Vincula el artículo aplicable, aunque al final de la ficha extensa.'])
+ ('DT · Entry by user profile', 'https://www.dt.gob.cl/portal/1626/w3-channel.html', [(160,160,680,432,TEAL),(4,61,850,121,RUST)], ['1. Visible worker entry helps users recognize their profile.', '2. Tax credential notice appears before the worker task (H8).']),
+ ('DT · Settlement explanation and requirements', 'https://www.dt.gob.cl/portal/1626/w3-article-117245.html', [(45,420,804,518,TEAL),(43,339,803,379,RUST)], ['1. Separates online and in-person procedures to support channel choice.', '2. The term for an attesting official lacks an immediate explanation (H2).']),
+ ('DT · Help and legal evidence', 'https://www.dt.gob.cl/portal/1626/w3-article-117245.html', [(40,325,810,428,TEAL),(38,450,810,517,TEAL)], ['1. Consultation and phone options provide a visible route to human help.', '2. Links the relevant article, but at the end of a long information page.'])
 ],
 'suseso': [
- ('SUSESO · Acción y seguimiento separados', 'https://www.suseso.gob.cl/606/w3-propertyvalue-610.html', [(28,294,838,406,TEAL),(15,772,838,901,TEAL)], ['1. Reclamar y seguir un reclamo se presentan como tareas distintas.', '2. El orientador explica que prepara antecedentes para el reclamo.']),
- ('SUSESO · Orientación por perfil', 'https://www.suseso.gob.cl/606/w3-propertyname-509.html', [(15,319,835,374,TEAL),(15,166,835,194,TEAL)], ['1. Permite elegir la orientación para trabajadores antes del motivo.', '2. La ruta visible ayuda a reconocer la ubicación en el sitio.']),
- ('SUSESO · Clasificar el problema de licencia', 'https://www.suseso.gob.cl/606/w3-propertyvalue-586.html', [(19,363,834,419,RUST),(765,463,852,541,RUST)], ['1. «Pronunciada por COMPIN» exige vocabulario institucional (H2).', '2. Los controles de texto cubren parte de «Volver» en esta vista (H3/H8).'])
+ ('SUSESO · Separate action and tracking', 'https://www.suseso.gob.cl/606/w3-propertyvalue-610.html', [(28,294,838,406,TEAL),(15,772,838,901,TEAL)], ['1. Filing and tracking a complaint are presented as separate tasks.', '2. The guidance tool explains its role in preparing complaint evidence.']),
+ ('SUSESO · Guidance by profile', 'https://www.suseso.gob.cl/606/w3-propertyname-509.html', [(15,319,835,374,TEAL),(15,166,835,194,TEAL)], ['1. Worker guidance can be selected before the reason for the request.', '2. The visible navigation path helps identify the current location.']),
+ ('SUSESO · Classify the medical leave problem', 'https://www.suseso.gob.cl/606/w3-propertyvalue-586.html', [(19,363,834,419,RUST),(765,463,852,541,RUST)], ['1. Wording about a COMPIN decision requires institutional vocabulary (H2).', '2. Text controls partly cover Back in this view (H3/H8).'])
 ],
 'chileatiende': [
- ('ChileAtiende · Ficha y acción principal', 'https://www.chileatiende.gob.cl/fichas/33522', [(69,348,770,390,TEAL),(1,784,846,918,RUST)], ['1. Muestra actualización: hace visible la fecha del contenido.', '2. «Ratificar» domina sobre «Ayuda» antes de verificar el caso (H5/H8).']),
- ('ChileAtiende · Elegir canal de ratificación', 'https://www.chileatiende.gob.cl/fichas/33522', [(105,527,744,648,TEAL),(75,411,765,499,TEAL)], ['1. Explica acceso web con ClaveÚnica y alternativa presencial.', '2. Acordeón por tarea: despliega la información cuando se solicita.']),
- ('ChileAtiende · Red de atención', 'https://www.chileatiende.gob.cl/red-de-atencion', [(14,425,835,689,TEAL),(1,1,846,65,RUST)], ['1. Tarjetas comparan videoatención, teléfono y formulario por canal.', '2. Cabecera y tipografía cambian respecto de la ficha CA01 (H4).'])
+ ('ChileAtiende · Information and primary action', 'https://www.chileatiende.gob.cl/fichas/33522', [(69,348,770,390,TEAL),(1,784,846,918,RUST)], ['1. The displayed update makes the content date visible.', '2. Ratify dominates Help before the case has been verified (H5/H8).']),
+ ('ChileAtiende · Choose a ratification channel', 'https://www.chileatiende.gob.cl/fichas/33522', [(105,527,744,648,TEAL),(75,411,765,499,TEAL)], ['1. Explains online access with ClaveÚnica and an in-person alternative.', '2. Task-based accordion reveals information on request.']),
+ ('ChileAtiende · Service network', 'https://www.chileatiende.gob.cl/red-de-atencion', [(14,425,835,689,TEAL),(1,1,846,65,RUST)], ['1. Cards compare video, phone, and form-based service channels.', '2. Header and typography differ from the CA01 information page (H4).'])
 ]}
 
 
@@ -80,7 +80,7 @@ def annotate_captures():
             result.paste(source,(0,72))
             draw=ImageDraw.Draw(result)
             draw.text((18,11),title,font=ImageFont.truetype(BOLD,22),fill=NAVY)
-            draw.text((18,43),f'{tool} · 05/10/2026 · {width}×{height} · vista pública',font=ImageFont.truetype(FONT,15),fill=NAVY)
+            draw.text((18,43),f'{tool} · 05/10/2026 · {width}×{height} · public view',font=ImageFont.truetype(FONT,15),fill=NAVY)
             for number,(left,top,right,bottom,color) in enumerate(boxes,1):
                 draw.rectangle((left,top+72,right,bottom+72),outline=color,width=4)
                 draw.ellipse((left+3,top+75,left+29,top+101),fill=color)
@@ -96,25 +96,25 @@ def annotate_captures():
 
 
 FEATURES = [
- ('Consulta pública sin cuenta','Consulta y ficha laboral','Orientador público','Ficha informativa','Entrada por situación','Estándar observado'),
- ('Organización por necesidad','Rol y temas laborales','Perfil y motivo','Ficha por trámite','Tres situaciones iniciales','Estándar observado'),
- ('Canal humano u oficial','SUAC, teléfono, oficina','Reclamo y oficinas','Red de atención','Destino según materia','Estándar observado'),
- ('Preparar antecedentes','Requisitos del finiquito','Orientador del reclamo','Instrucciones por tarea','Checklist del caso','Estándar documentado'),
- ('Fundamento de la orientación','Artículo en ficha DT','Compendio vinculado*','Institución y ficha','Fuente por afirmación','Implementación variable'),
- ('Estado de una gestión formal','Seguimiento documentado*','Botón seguimiento','Mi ChileAtiende*','Solo comprobante externo','Diferenciadora'),
- ('Estimación de un beneficio','Fuera de esta muestra','Simulador SIL*','Fuera de esta muestra','Sin cálculo universal','Diferenciadora'),
- ('Verificación contextual','No observada integrada','No observada integrada','No observada integrada','Datos faltantes + respaldo','Oportunidad hipotética'),
- ('Límite en cada respuesta','No observado conversacional','SIL declara estimación*','No observado conversacional','Explicación de alcance','Oportunidad hipotética'),
- ('Resumen para derivación','No observado integrado','Antecedentes por motivo','Instrucciones generales','Preguntas y pendientes','Oportunidad hipotética')
+ ('Public access without account','Labor guidance pages','Public guidance tool','Information pages','Situation-based entry','Observed baseline'),
+ ('Organization by need','Role and labor topics','Profile and reason','Procedure information','Three initial situations','Observed baseline'),
+ ('Human or official channel','SUAC, phone, office','Complaints and offices','Service network','Subject-based referral','Observed baseline'),
+ ('Prepare supporting evidence','Settlement requirements','Complaint guidance','Task instructions','Case checklist','Documented baseline'),
+ ('Basis for guidance','Article linked in page','Compendium linked*','Institution and page','Source for each claim','Varies by service'),
+ ('Formal procedure status','Documented tracking*','Tracking button','Mi ChileAtiende*','External receipt only','Distinctive feature'),
+ ('Benefit estimate','Outside this sample','SIL simulator*','Outside this sample','No universal calculation','Distinctive feature'),
+ ('Contextual verification','Not observed integrated','Not observed integrated','Not observed integrated','Missing data + evidence','Hypothesized opportunity'),
+ ('Limit for each answer','No dialogue observed','SIL declares estimate*','No dialogue observed','Explain scope','Hypothesized opportunity'),
+ ('Referral summary','Not observed integrated','Evidence by reason','General instructions','Questions and next steps','Hypothesized opportunity')
 ]
 
 
 def create_feature_map():
     content=rect(0,0,1800,1450,'#F7FAFB')+rect(0,0,1800,145,NAVY)
-    content+=text_block(40,55,'Benchmark · Mapa comparativo de funcionalidades',1720,36,'#FFFFFF',True)
-    content+=text_block(40,101,'Orientación laboral con IA verificada · Muestra de tres herramientas · 05 OCT 2026',1720,24,'#CDE6EE')
+    content+=text_block(40,55,'Benchmark · Feature comparison map',1720,36,'#FFFFFF',True)
+    content+=text_block(40,101,'Verified AI-assisted labor guidance · Three-service sample · OCT 05, 2026',1720,24,'#CDE6EE')
     widths=[380,270,270,270,270,260]
-    headers=['Funcionalidad','Dirección del Trabajo','SUSESO','ChileAtiende','Propuesta del grupo','Lectura de la muestra']
+    headers=['Feature','Labor Directorate (DT)','SUSESO','ChileAtiende','Team proposal','Sample interpretation']
     x=40
     for width,header in zip(widths,headers):
         content+=rect(x,175,width,75,TEAL)
@@ -127,11 +127,11 @@ def create_feature_map():
             content+=rect(x,y,width,98,color,'#D4E0E6')
             content+=text_block(x+12,y+29,cell,width-24,23,TEAL if j==4 else NAVY,j==0,max_lines=3)
             x+=width
-    content+=text_block(40,1279,'* Función documentada en fuentes oficiales; no se completó el flujo autenticado ni el simulador.',1720,23)
-    content+=text_block(40,1320,'«No observada» se limita a las pantallas revisadas: no demuestra que una función no exista en el producto.',1720,23)
-    content+=text_block(40,1361,'«Estándar» describe esta muestra. Oportunidades y propuesta requieren validación con usuarios y con el equipo.',1720,23)
-    content+=text_block(40,1402,'Trazabilidad y fuentes: benchmark/README.md y tabla-comparativa.md. La propuesta todavía no está implementada.',1720,22)
-    save_svg(ROOT/'benchmark/feature-map.svg',svg_document(1800,1450,content,'Mapa comparativo de funcionalidades del benchmarking'))
+    content+=text_block(40,1279,'* Documented in official sources; authenticated flows and the simulator were not completed.',1720,23)
+    content+=text_block(40,1320,'Unobserved refers only to reviewed screens; it does not establish that a feature is absent from the product.',1720,23)
+    content+=text_block(40,1361,'Baseline describes this sample. Opportunities and the proposal require user and team validation.',1720,23)
+    content+=text_block(40,1402,'Evidence and sources: benchmark/README.md and tabla-comparativa.md. The proposal is not yet implemented.',1720,22)
+    save_svg(ROOT/'benchmark/feature-map.svg',svg_document(1800,1450,content,'Benchmark feature comparison map'))
 
 
 if __name__ == '__main__':

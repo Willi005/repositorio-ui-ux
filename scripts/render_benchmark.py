@@ -23,10 +23,10 @@ def render_markdown(path):
 
 CSS = '''
 @page {size: A4; margin: 16mm 17mm 17mm;
- @bottom-left {content: "UFRO · Diseño de Interfaz Humano Computador · 05/10/2026"; font-size: 8pt; color:#53717E;}
+ @bottom-left {content: "UFRO · Human-Computer Interface Design · OCT 05, 2026"; font-size: 8pt; color:#53717E;}
  @bottom-right {content: counter(page); font-size: 8pt; color:#53717E;}}
 @page comparison {size: A3 landscape; margin:16mm;
- @bottom-left {content:"Benchmark · Matriz comparativa · Propuesta pendiente de validación"; font-size:8pt;}
+ @bottom-left {content:"Benchmark · Comparison matrix · Proposal pending validation"; font-size:8pt;}
  @bottom-right {content:counter(page);font-size:8pt;}}
 body {font: 10.5pt/1.48 "Liberation Sans", sans-serif; color:#14344A;}
 h1 {font-size:27pt;line-height:1.15;color:#14344A;margin:0 0 7mm;}
@@ -56,6 +56,6 @@ html {background:#EDF3F6;}figure{margin:35px 0;}figure img {width:100%;max-width
 if __name__ == '__main__':
     report = render_markdown(BENCHMARK/'README.md')
     matrix = render_markdown(BENCHMARK/'tabla-comparativa.md')
-    document=f'<!DOCTYPE html><html lang="es"><meta charset="UTF-8"><title>Benchmark de orientación laboral</title><style>{CSS}</style><body><main>{report}</main><section class="comparison">{matrix}</section></body></html>'
+    document=f'<!DOCTYPE html><html lang="en"><meta charset="UTF-8"><title>Labor guidance benchmark</title><style>{CSS}</style><body><main>{report}</main><section class="comparison">{matrix}</section></body></html>'
     (BENCHMARK/'benchmark.html').write_text(document)
     print('Generated standalone benchmark HTML. Build the APA PDF with scripts/build_benchmark.py.')
