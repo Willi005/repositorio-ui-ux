@@ -1,6 +1,6 @@
-# Reproducción de los artefactos
+# Reproducing the artifacts
 
-Requisitos del benchmark: Python, `uv`, bibliotecas Cairo/Pango y TeX Live con `pdflatex`. Poppler permite revisar los PDF. Desde la raíz del repositorio:
+Benchmark requirements: Python, `uv`, Cairo/Pango libraries, and TeX Live with `pdflatex`. Poppler supports PDF inspection. From the repository root:
 
 ```bash
 uv venv .venv-artifacts
@@ -10,20 +10,20 @@ uv pip install --python .venv-artifacts/bin/python -r scripts/requirements.txt
 python scripts/build_benchmark.py
 ```
 
-`generate_artifacts.py` utiliza las capturas originales y las anotaciones de evidencia. Genera nueve PNG anotados y el mapa comparativo en SVG, PNG y PDF. `render_benchmark.py` compone el análisis y la tabla comparativa como HTML autónomo con imágenes embebidas. `build_benchmark.py` compila las fuentes de `benchmark/latex/` y genera el PDF de entrega con formato APA 7 y portada UFRO adaptada. El HTML no sobrescribe ese PDF. [Formato, fuentes y edición](../benchmark/latex/README.md). No consulta ni modifica servicios externos.
+`generate_artifacts.py` uses original screenshots and evidence annotations. It generates nine annotated PNGs and the feature map in SVG, PNG, and PDF. `render_benchmark.py` combines the analysis and comparison matrix into standalone HTML with embedded images. `build_benchmark.py` compiles `benchmark/latex/` and produces the submission PDF with an APA 7 body and an adapted UFRO cover. The HTML renderer does not overwrite that PDF. [Formatting, sources, and editing](../benchmark/latex/README.md). These scripts do not access or modify external services.
 
-La portada visible en el README principal se renderiza desde el PDF con Poppler. Regenerarla después de cambiar el informe:
+The main README's cover preview is rendered from the report PDF with Poppler. Regenerate it after changing the report:
 
 ```bash
 pdftoppm -f 1 -l 1 -png -singlefile -scale-to 1600 benchmark/benchmark.pdf benchmark/portada-informe
 ```
 
-## Customer Journey definitivo
+## Definitive Customer Journey
 
-El PDF [Customer Journey · William](../customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) es la entrega definitiva del usuario. Se conserva sin modificar. Su vista previa para GitHub se genera con Poppler desde la raíz del repositorio:
+The [Customer Journey · William PDF](../customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) is the user's definitive submission and is preserved without modification. Generate its GitHub preview with Poppler from the repository root:
 
 ```bash
 pdftoppm -png -singlefile -scale-to 2800 'customer-journey/Customer Journey · William.pdf' customer-journey/definitivo
 ```
 
-Los scripts del benchmark no generan ni sobrescriben el Journey. Las copias anteriores se retiraron de la entrega vigente y permanecen recuperables en Git. [Descripción de la entrega](../customer-journey/README.md).
+Benchmark scripts do not generate or overwrite the Journey. Earlier copies were removed from the current submission and remain recoverable in Git. [Submission description](../customer-journey/README.md).

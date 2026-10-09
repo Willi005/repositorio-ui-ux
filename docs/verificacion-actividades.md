@@ -1,48 +1,48 @@
-# Comprobación de benchmarking y Customer Journey
+# Benchmarking and Customer Journey verification
 
-Benchmark: **5 de octubre de 2026**. Corrección del Customer Journey: **8 de octubre de 2026**. Rama de trabajo: `feature/benchmark-customer-journey`, creada desde `develop` conforme a Gitflow.
+Benchmark observation: **October 5, 2026**. Journey and report revision: **October 8, 2026**. Original work used `feature/benchmark-customer-journey` from `develop`; the English correction uses `hotfix/restore-english-content`, following Gitflow.
 
-## Pauta de benchmarking
+## Benchmark assignment
 
-| Requisito | Evidencia preparada |
+| Requirement | Prepared evidence |
 | --- | --- |
-| Ecosistema inicial con plataformas y enlaces | Inventario de cinco candidatos en `benchmark/README.md`. |
-| Directo, análogo y referencia; selección justificada | DT, SUSESO y ChileAtiende, con categorías y límites de comparación. |
-| Diez dimensiones base, comparables | Cuatro tablas temáticas en `benchmark/tabla-comparativa.md`. |
-| Entre dos y cuatro dimensiones del dominio | Cuatro: trazabilidad, límites, derivación competente y privacidad/control. |
-| Dos positivos y dos problemas por herramienta | Fichas de análisis con heurísticas e imágenes que sustentan la interpretación. |
-| Tres capturas anotadas por herramienta | Nueve PNG con título, dos anotaciones y comentario de dos líneas; originales preservados. |
-| Mapa de funcionalidades | PNG/SVG/PDF: distingue estándares de la muestra, diferencias y oportunidades hipotéticas. |
-| Propuesta del grupo como fila completa | Fila en cada una de las cuatro tablas, calificada como propuesta aún no implementada. |
-| Patrones adoptados/rechazados y restricciones | Sección de decisiones del análisis; al menos tres vínculos con personas y prototipo. |
-| Relación con Garrett | Estrategia y Alcance explicitados. |
-| Fuentes y contexto temporal | Enlaces oficiales junto a afirmaciones; registro de capturas con fecha, URL y tamaño de ventana. |
+| Initial ecosystem with platforms and links | Five-candidate inventory in `benchmark/README.md`. |
+| Direct comparison, analogue, and reference; justified selection | DT, SUSESO, and ChileAtiende, with categories and comparison limits. |
+| Ten comparable base dimensions | Four thematic tables in `benchmark/tabla-comparativa.md`. |
+| Two to four domain dimensions | Four: traceability, limits, competent referral, and privacy/control. |
+| Two strengths and two problems per tool | Analyses with heuristics and images supporting interpretation. |
+| Three annotated screenshots per tool | Nine PNGs with English headings and two annotations; originals preserved. |
+| Feature map | PNG/SVG/PDF distinguishes sample baselines, differences, and hypothesized opportunities. |
+| Team proposal as a complete row | A row in each of the four tables, explicitly not yet implemented. |
+| Adopted/rejected patterns and constraints | Analysis priorities; at least three links to personas and prototype. |
+| Garrett connection | Strategy and Scope explicitly discussed. |
+| Sources and temporal context | Official links beside claims; screenshot records with date, URL, and viewport. |
 
-**Alcance pendiente de validación:** no se completaron cuentas ni trámites autenticados, pruebas de errores/confirmaciones de expedientes o reseñas de usuarios. La pauta recomienda esa exploración: el documento declara la limitación y no simula evidencia. El mapa requiere revisión colaborativa del equipo; no se afirma haber realizado esa reunión. El benchmarking es una base documental y una inspección pública para profundizar, no una evaluación de desempeño ni auditoría de accesibilidad.
+**Scope pending validation:** authenticated accounts/procedures, case errors/confirmations, and user reviews were not explored. The assignment recommends this exploration; the document declares the limitation and does not simulate evidence. The map requires collaborative team review, and no such meeting is claimed. Benchmarking provides documentary research and public inspection for further exploration, rather than performance evaluation or an accessibility audit.
 
-## Customer Journey definitivo
+## Definitive Customer Journey
 
-El usuario reemplazó los archivos del recorrido anterior por `customer-journey/Customer Journey · William.pdf` y declaró ese documento como definitivo. El PDF se conserva sin modificación; la imagen `definitivo.png` se renderiza desde él para mostrarlo en el README principal.
+The user replaced the previous journey with `customer-journey/Customer Journey · William.pdf` and declared it definitive. The PDF remains unmodified; `definitivo.png` is rendered from it for display in the main README.
 
-| Contenido | Evidencia del PDF definitivo |
+| Content | Evidence in definitive PDF |
 | --- | --- |
-| Persona | William, correspondiente al conductor de carga de la persona UX. |
-| Idioma | Inglés en todo el mapa. |
-| Etapas | Search, Verification, Guidance y Follow-up. |
-| Acciones | Doce acciones numeradas, tres por etapa. |
-| Emociones | Doce etiquetas y curva cualitativa; se declaran hipótesis. |
-| Filas inferiores | Valor, barreras y oportunidades para cada etapa. |
-| Momento clave | Identificar la regla de jornada aplicable con cita y confianza antes de interpretar pagos. |
-| Entrega | PDF definitivo de una página y PNG para GitHub. |
+| Persona | William, the cargo driver in the UX persona. |
+| Language | English throughout the map. |
+| Stages | Search, Verification, Guidance, and Follow-up. |
+| Actions | Twelve numbered actions, three per stage. |
+| Emotions | Twelve labels and a qualitative curve, explicitly hypotheses. |
+| Lower rows | Value, barriers, and opportunities for each stage. |
+| Key moment | Identify the applicable working time rule with citation and confidence before interpreting payments. |
+| Submission | Definitive single-page PDF and GitHub PNG. |
 
-Se revisaron la página completa, su texto y la vista previa; se comprobaron los enlaces locales y la coincidencia del hash del PDF antes y después de preparar la publicación. Las versiones anteriores se retiran del árbol vigente, conservando su historial en Git. El README principal mantiene una explicación breve y una imagen enlazada al PDF.
+The complete page, text, and preview were reviewed; local links and PDF hash preservation were checked during publication. Earlier versions are removed from the current tree but remain in Git history. The main README provides a brief explanation and an image linked to the PDF.
 
-Las observaciones del benchmark son del 5 de octubre de 2026. El Journey es una experiencia propuesta y no acredita entrevistas, medición de emociones ni resolución favorable del caso. Los PDF no se presentan como certificados PDF/UA.
+Benchmark observations are dated October 5, 2026. The Journey proposes an experience; it does not establish interviews, measured emotions, or favorable case outcomes. PDFs are not presented as PDF/UA certified.
 
-## Informe LaTeX y APA 7: 8 de octubre de 2026
+## LaTeX and APA 7 report
 
-El informe de entrega se compila desde `benchmark/latex/`. La portada recicla la identidad UFRO del informe de Redes y actualiza equipo, docente y asignatura; se documenta su adaptación institucional. Se aplicaron doble interlineado, márgenes de 2,54 cm, sangría de 1,27 cm, tipografía Times de 12 puntos, encabezado con número de página, citas autor-fecha y referencias alfabéticas con sangría francesa. La matriz usa celdas a 10 puntos e interlineado simple para mantener legibilidad.
+The report compiles from `benchmark/latex/`. The cover reuses UFRO identity from the Networks report and updates team, instructor, and course; the institutional adaptation is documented. Formatting includes double spacing, one-inch margins, half-inch indents, 12-point Times family, page numbers, author-date citations, and alphabetical references with hanging indents. Matrix cells use 10-point single-spaced text for legibility.
 
-El PDF final tiene 27 páginas. Se verificó la compilación con 27 referencias bibliográficas citadas y referencias cruzadas resueltas, cinco tablas y diez figuras (nueve capturas más el mapa). Se corrigieron notas separadas de sus tablas y se revisaron las páginas renderizadas. El comando rechaza errores de compilación, referencias sin resolver y desbordamientos mayores a 1 punto. Se comprobaron sintaxis de los scripts y enlaces locales; regenerar el HTML conservó el hash del PDF de LaTeX. La fecha de observación se mantiene en 5 de octubre de 2026.
+The English report contains 27 cited bibliographic references, resolved cross-references, five tables, and ten figures: nine screenshots plus the feature map. Table notes are reserved within their tables to avoid orphan notes. The build rejects compilation errors, unresolved references, and overflow greater than one point. Scripts and local links are checked; HTML generation does not overwrite the LaTeX PDF. English report text, captions, map labels, and annotations preserve the research's observation date and scope.
 
-El README principal muestra una portada PNG renderizada desde el informe, enlazada al PDF de 27 páginas, y conserva el mapa comparativo. Junto a la imagen del Journey definitivo, estas vistas previas presentan las dos actividades con explicaciones breves y acceso a sus documentos completos.
+The original README text and `docs/project-brief.md` are restored from commit `da7f382`, preceding the activity publication. Only the two new activity sections are inserted into the README. Original persona and Canvas images, original screenshot evidence, and the user's definitive Journey remain unchanged. The main README displays the regenerated English report cover, feature map, and definitive Journey, with brief explanations and links to full documents.
