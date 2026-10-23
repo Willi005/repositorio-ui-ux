@@ -18,7 +18,7 @@ This command requires `pdflatex` and the packages listed in `preamble.tex`, avai
 
 Images are read directly from `strategy/benchmark/screenshots/`, and the map from `strategy/benchmark/feature-map.pdf`. LaTeX neither repeats the research nor replaces screenshots. Markdown sources and HTML provide alternative reading formats; content edits must also be reflected in LaTeX because these sources do not synchronize automatically.
 
-The main README displays `strategy/benchmark/portada-informe.png` as a preview linked to the complete PDF. After recompilation, [regenerate the cover with Poppler](../../../scripts/README.md) to keep it current.
+The main README displays `strategy/benchmark/report-cover.png` as a preview linked to the complete PDF. After recompilation, [regenerate the cover with Poppler](../../../scripts/README.md) to keep it current.
 
 ## Formatting approach
 

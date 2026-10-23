@@ -55,7 +55,7 @@ html {background:#EDF3F6;}figure{margin:35px 0;}figure img {width:100%;max-width
 
 if __name__ == '__main__':
     report = render_markdown(BENCHMARK/'README.md')
-    matrix = render_markdown(BENCHMARK/'tabla-comparativa.md')
+    matrix = render_markdown(BENCHMARK/'comparison-matrix.md')
     document=f'<!DOCTYPE html><html lang="en"><meta charset="UTF-8"><title>Labor guidance benchmark</title><style>{CSS}</style><body><main>{report}</main><section class="comparison">{matrix}</section></body></html>'
     (BENCHMARK/'benchmark.html').write_text(document)
     print('Generated standalone benchmark HTML. Build the APA PDF with scripts/build_benchmark.py.')

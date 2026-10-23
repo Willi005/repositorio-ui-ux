@@ -15,7 +15,7 @@ python scripts/build_benchmark.py
 The main README's cover preview is rendered from the report PDF with Poppler. Regenerate it after changing the report:
 
 ```bash
-pdftoppm -f 1 -l 1 -png -singlefile -scale-to 1600 strategy/benchmark/benchmark.pdf strategy/benchmark/portada-informe
+pdftoppm -f 1 -l 1 -png -singlefile -scale-to 1600 strategy/benchmark/benchmark.pdf strategy/benchmark/report-cover
 ```
 
 ## Definitive Customer Journey

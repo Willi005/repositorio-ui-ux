@@ -77,9 +77,9 @@ We created three personas to describe distinct labor rights situations and the i
 
 We compared Dirección del Trabajo (DT), SUSESO, and ChileAtiende to identify useful patterns for understandable, verifiable labor rights guidance. The study covers fourteen dimensions and nine annotated public screenshots observed on October 5, 2026. It distinguishes observed features, documented capabilities, and design hypotheses for the proposed product.
 
-The [full benchmarking report](strategy/benchmark/benchmark.pdf) follows APA 7 for the body, citations, and references, with an adapted UFRO institutional cover. Read the [analysis](strategy/benchmark/README.md), [comparison matrix](strategy/benchmark/tabla-comparativa.md), or [editable LaTeX sources](strategy/benchmark/latex/README.md).
+The [full benchmarking report](strategy/benchmark/benchmark.pdf) follows APA 7 for the body, citations, and references, with an adapted UFRO institutional cover. Read the [analysis](strategy/benchmark/README.md), [comparison matrix](strategy/benchmark/comparison-matrix.md), or [editable LaTeX sources](strategy/benchmark/latex/README.md).
 
-[![Cover of the English benchmarking report](strategy/benchmark/portada-informe.png)](strategy/benchmark/benchmark.pdf)
+[![Cover of the English benchmarking report](strategy/benchmark/report-cover.png)](strategy/benchmark/benchmark.pdf)
 
 ![Feature comparison map for the three reference services and the proposed product](strategy/benchmark/feature-map.png)
 

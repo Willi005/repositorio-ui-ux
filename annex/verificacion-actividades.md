@@ -8,7 +8,7 @@ Benchmark observation: **October 5, 2026**. Journey and report revision: **Octob
 | --- | --- |
 | Initial ecosystem with platforms and links | Five-candidate inventory in `strategy/benchmark/README.md`. |
 | Direct comparison, analogue, and reference; justified selection | DT, SUSESO, and ChileAtiende, with categories and comparison limits. |
-| Ten comparable base dimensions | Four thematic tables in `strategy/benchmark/tabla-comparativa.md`. |
+| Ten comparable base dimensions | Four thematic tables in `strategy/benchmark/comparison-matrix.md`. |
 | Two to four domain dimensions | Four: traceability, limits, competent referral, and privacy/control. |
 | Two strengths and two problems per tool | Analyses with heuristics and images supporting interpretation. |
 | Three annotated screenshots per tool | Nine PNGs with English headings and two annotations; originals preserved. |
