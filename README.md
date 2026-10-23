@@ -49,7 +49,7 @@ Deliverables are in [`strategy/`](strategy/).
 
 We mapped workers' jobs, pains, and desired gains to the product's proposed features, pain relievers, and benefits. The canvas links needs such as understanding a settlement, handling medical leave, and knowing when to contact the Labor Inspectorate to plain-language guidance, legal citations, visible confidence levels, and referral to the competent authority.
 
-![Value Proposition Canvas for verified AI-assisted labor rights guidance](strategy/value-proposition/value_proposition.png)
+![Value Proposition Canvas for verified AI-assisted labor rights guidance](strategy/value-proposition/value-proposition.png)
 
 ### 3.2. UX Personas
 
@@ -77,9 +77,9 @@ We created three personas to describe distinct labor rights situations and the i
 
 We compared Dirección del Trabajo (DT), SUSESO, and ChileAtiende to identify useful patterns for understandable, verifiable labor rights guidance. The study covers fourteen dimensions and nine annotated public screenshots observed on October 5, 2026. It distinguishes observed features, documented capabilities, and design hypotheses for the proposed product.
 
-The [full benchmarking report](strategy/benchmark/benchmark.pdf) follows APA 7 for the body, citations, and references, with an adapted UFRO institutional cover. Read the [analysis](strategy/benchmark/README.md), [comparison matrix](strategy/benchmark/tabla-comparativa.md), or [editable LaTeX sources](strategy/benchmark/latex/README.md).
+The [full benchmarking report](strategy/benchmark/benchmark.pdf) follows APA 7 for the body, citations, and references, with an adapted UFRO institutional cover. Read the [analysis](strategy/benchmark/README.md), [comparison matrix](strategy/benchmark/comparison-matrix.md), or [editable LaTeX sources](strategy/benchmark/latex/README.md).
 
-[![Cover of the English benchmarking report](strategy/benchmark/portada-informe.png)](strategy/benchmark/benchmark.pdf)
+[![Cover of the English benchmarking report](strategy/benchmark/report-cover.png)](strategy/benchmark/benchmark.pdf)
 
 ![Feature comparison map for the three reference services and the proposed product](strategy/benchmark/feature-map.png)
 
@@ -93,7 +93,7 @@ We mapped William's journey from noticing potentially unpaid hours to preparing 
 
 [View the definitive Customer Journey PDF](scope/customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) or read its [brief explanation](scope/customer-journey/README.md).
 
-[![William's definitive Customer Journey](scope/customer-journey/definitivo.png)](scope/customer-journey/Customer%20Journey%20%C2%B7%20William.pdf)
+[![William's definitive Customer Journey](scope/customer-journey/definitive.png)](scope/customer-journey/Customer%20Journey%20%C2%B7%20William.pdf)
 
 ## 5. Skeleton
 
@@ -114,7 +114,7 @@ The remaining views are available in the [wireframes directory](skeleton/wirefra
 
 ## 6. Annex
 
-Supporting material is in [`annex/`](annex/): the [research notes](annex/research_notes/), the [benchmarking report in Markdown](annex/reports/), and the [activity verification](annex/verificacion-actividades.md). The [project brief](docs/project-brief.md) and the [scripts that reproduce the generated artifacts](scripts/README.md) are available in `docs/` and `scripts/`.
+Supporting material is in [`annex/`](annex/): the [research notes](annex/research-notes/), the [benchmarking report in Markdown](annex/reports/), and the [activity verification](annex/activity-verification.md). The [project brief](docs/project-brief.md) and the [scripts that reproduce the generated artifacts](scripts/README.md) are available in `docs/` and `scripts/`.
 
 ## Repository contents
 

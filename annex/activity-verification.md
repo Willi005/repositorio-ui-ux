@@ -8,7 +8,7 @@ Benchmark observation: **October 5, 2026**. Journey and report revision: **Octob
 | --- | --- |
 | Initial ecosystem with platforms and links | Five-candidate inventory in `strategy/benchmark/README.md`. |
 | Direct comparison, analogue, and reference; justified selection | DT, SUSESO, and ChileAtiende, with categories and comparison limits. |
-| Ten comparable base dimensions | Four thematic tables in `strategy/benchmark/tabla-comparativa.md`. |
+| Ten comparable base dimensions | Four thematic tables in `strategy/benchmark/comparison-matrix.md`. |
 | Two to four domain dimensions | Four: traceability, limits, competent referral, and privacy/control. |
 | Two strengths and two problems per tool | Analyses with heuristics and images supporting interpretation. |
 | Three annotated screenshots per tool | Nine PNGs with English headings and two annotations; originals preserved. |
@@ -22,7 +22,7 @@ Benchmark observation: **October 5, 2026**. Journey and report revision: **Octob
 
 ## Definitive Customer Journey
 
-The user replaced the previous journey with `scope/customer-journey/Customer Journey · William.pdf` and declared it definitive. The PDF remains unmodified; `definitivo.png` is rendered from it for display in the main README.
+The user replaced the previous journey with `scope/customer-journey/Customer Journey · William.pdf` and declared it definitive. The PDF remains unmodified; `definitive.png` is rendered from it for display in the main README.
 
 | Content | Evidence in definitive PDF |
 | --- | --- |

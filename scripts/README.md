@@ -15,7 +15,7 @@ python scripts/build_benchmark.py
 The main README's cover preview is rendered from the report PDF with Poppler. Regenerate it after changing the report:
 
 ```bash
-pdftoppm -f 1 -l 1 -png -singlefile -scale-to 1600 strategy/benchmark/benchmark.pdf strategy/benchmark/portada-informe
+pdftoppm -f 1 -l 1 -png -singlefile -scale-to 1600 strategy/benchmark/benchmark.pdf strategy/benchmark/report-cover
 ```
 
 ## Definitive Customer Journey
@@ -23,7 +23,7 @@ pdftoppm -f 1 -l 1 -png -singlefile -scale-to 1600 strategy/benchmark/benchmark.
 The [Customer Journey · William PDF](../scope/customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) is the user's definitive submission and is preserved without modification. Generate its GitHub preview with Poppler from the repository root:
 
 ```bash
-pdftoppm -png -singlefile -scale-to 2800 'scope/customer-journey/Customer Journey · William.pdf' scope/customer-journey/definitivo
+pdftoppm -png -singlefile -scale-to 2800 'scope/customer-journey/Customer Journey · William.pdf' scope/customer-journey/definitive
 ```
 
 Benchmark scripts do not generate or overwrite the Journey. Earlier copies were removed from the current submission and remain recoverable in Git. [Submission description](../scope/customer-journey/README.md).
