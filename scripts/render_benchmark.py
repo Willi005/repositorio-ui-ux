@@ -5,7 +5,7 @@ import re
 import markdown
 
 ROOT = Path(__file__).resolve().parents[1]
-BENCHMARK = ROOT/'benchmark'
+BENCHMARK = ROOT/'strategy'/'benchmark'
 
 
 def render_markdown(path):

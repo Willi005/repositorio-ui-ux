@@ -10,12 +10,12 @@ uv pip install --python .venv-artifacts/bin/python -r scripts/requirements.txt
 python scripts/build_benchmark.py
 ```
 
-`generate_artifacts.py` uses original screenshots and evidence annotations. It generates nine annotated PNGs and the feature map in SVG, PNG, and PDF. `render_benchmark.py` combines the analysis and comparison matrix into standalone HTML with embedded images. `build_benchmark.py` compiles `benchmark/latex/` and produces the submission PDF with an APA 7 body and an adapted UFRO cover. The HTML renderer does not overwrite that PDF. [Formatting, sources, and editing](../benchmark/latex/README.md). These scripts do not access or modify external services.
+`generate_artifacts.py` uses original screenshots and evidence annotations. It generates nine annotated PNGs and the feature map in SVG, PNG, and PDF. `render_benchmark.py` combines the analysis and comparison matrix into standalone HTML with embedded images. `build_benchmark.py` compiles `strategy/benchmark/latex/` and produces the submission PDF with an APA 7 body and an adapted UFRO cover. The HTML renderer does not overwrite that PDF. [Formatting, sources, and editing](../strategy/benchmark/latex/README.md). These scripts do not access or modify external services.
 
 The main README's cover preview is rendered from the report PDF with Poppler. Regenerate it after changing the report:
 
 ```bash
-pdftoppm -f 1 -l 1 -png -singlefile -scale-to 1600 benchmark/benchmark.pdf benchmark/portada-informe
+pdftoppm -f 1 -l 1 -png -singlefile -scale-to 1600 strategy/benchmark/benchmark.pdf strategy/benchmark/portada-informe
 ```
 
 ## Definitive Customer Journey

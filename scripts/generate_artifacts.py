@@ -73,7 +73,7 @@ def annotate_captures():
     manifest=[]
     for tool,items in CAPTURES.items():
         for i,(title,url,boxes,comments) in enumerate(items,1):
-            original=ROOT/'benchmark/capturas'/tool/f'{i:02}-original.jpg'
+            original=ROOT/'strategy/benchmark/capturas'/tool/f'{i:02}-original.jpg'
             source=Image.open(original).convert('RGB')
             width,height=source.size
             result=Image.new('RGB',(width,height+145),'#F7FAFB')
@@ -92,7 +92,7 @@ def annotate_captures():
             path=original.with_name(f'{i:02}-anotada.png')
             result.save(path)
             manifest.append({'id':f'{tool}-{i:02}','url':url,'date':'2026-10-05','viewport':[width,height],'original':str(original.relative_to(ROOT)),'annotated':str(path.relative_to(ROOT)),'comments':comments})
-    (ROOT/'benchmark/capturas/registro.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'strategy/benchmark/capturas/registro.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 
 
 FEATURES = [
@@ -131,7 +131,7 @@ def create_feature_map():
     content+=text_block(40,1320,'Unobserved refers only to reviewed screens; it does not establish that a feature is absent from the product.',1720,23)
     content+=text_block(40,1361,'Baseline describes this sample. Opportunities and the proposal require user and team validation.',1720,23)
     content+=text_block(40,1402,'Evidence and sources: benchmark/README.md and tabla-comparativa.md. The proposal is not yet implemented.',1720,22)
-    save_svg(ROOT/'benchmark/feature-map.svg',svg_document(1800,1450,content,'Benchmark feature comparison map'))
+    save_svg(ROOT/'strategy/benchmark/feature-map.svg',svg_document(1800,1450,content,'Benchmark feature comparison map'))
 
 
 if __name__ == '__main__':

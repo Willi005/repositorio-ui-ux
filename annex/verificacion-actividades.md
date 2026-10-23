@@ -6,9 +6,9 @@ Benchmark observation: **October 5, 2026**. Journey and report revision: **Octob
 
 | Requirement | Prepared evidence |
 | --- | --- |
-| Initial ecosystem with platforms and links | Five-candidate inventory in `benchmark/README.md`. |
+| Initial ecosystem with platforms and links | Five-candidate inventory in `strategy/benchmark/README.md`. |
 | Direct comparison, analogue, and reference; justified selection | DT, SUSESO, and ChileAtiende, with categories and comparison limits. |
-| Ten comparable base dimensions | Four thematic tables in `benchmark/tabla-comparativa.md`. |
+| Ten comparable base dimensions | Four thematic tables in `strategy/benchmark/tabla-comparativa.md`. |
 | Two to four domain dimensions | Four: traceability, limits, competent referral, and privacy/control. |
 | Two strengths and two problems per tool | Analyses with heuristics and images supporting interpretation. |
 | Three annotated screenshots per tool | Nine PNGs with English headings and two annotations; originals preserved. |
@@ -41,7 +41,7 @@ Benchmark observations are dated October 5, 2026. The Journey proposes an experi
 
 ## LaTeX and APA 7 report
 
-The report compiles from `benchmark/latex/`. The cover reuses UFRO identity from the Networks report and updates team, instructor, and course; the institutional adaptation is documented. Formatting includes double spacing, one-inch margins, half-inch indents, 12-point Times family, page numbers, author-date citations, and alphabetical references with hanging indents. Matrix cells use 10-point single-spaced text for legibility.
+The report compiles from `strategy/benchmark/latex/`. The cover reuses UFRO identity from the Networks report and updates team, instructor, and course; the institutional adaptation is documented. Formatting includes double spacing, one-inch margins, half-inch indents, 12-point Times family, page numbers, author-date citations, and alphabetical references with hanging indents. Matrix cells use 10-point single-spaced text for legibility.
 
 The English report contains 27 cited bibliographic references, resolved cross-references, five tables, and ten figures: nine screenshots plus the feature map. Table notes are reserved within their tables to avoid orphan notes. The build rejects compilation errors, unresolved references, and overflow greater than one point. Scripts and local links are checked; HTML generation does not overwrite the LaTeX PDF. English report text, captions, map labels, and annotations preserve the research's observation date and scope.
 
