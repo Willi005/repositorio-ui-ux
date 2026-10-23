@@ -2,7 +2,7 @@
 
 Definitive submission provided by the team: **Customer Journey · William.pdf**. It replaces the earlier journey versions. The profile is the cargo driver named William in the UX persona title and Guillermo in its description; the supplied PDF's name and content are preserved.
 
-[View the definitive PDF](Customer%20Journey%20%C2%B7%20William.pdf) · [PNG preview](definitivo.png) · [UX persona](../ux-personas/2.png).
+[View the definitive PDF](Customer%20Journey%20%C2%B7%20William.pdf) · [PNG preview](definitivo.png) · [UX persona](../../strategy/ux-personas/2.png).
 
 [![William's definitive Customer Journey](definitivo.png)](Customer%20Journey%20%C2%B7%20William.pdf)
 
@@ -26,7 +26,7 @@ The **user-provided PDF is the submission source** and is preserved without modi
 Reproduce the preview with Poppler:
 
 ```bash
-pdftoppm -png -singlefile -scale-to 2800 'customer-journey/Customer Journey · William.pdf' customer-journey/definitivo
+pdftoppm -png -singlefile -scale-to 2800 'scope/customer-journey/Customer Journey · William.pdf' scope/customer-journey/definitivo
 ```
 
 Run from the repository root. A new version should replace the PDF and regenerate the image so both represent the same submission.

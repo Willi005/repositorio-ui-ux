@@ -1,6 +1,6 @@
 # Labor rights guidance requires verifiable trust
 
-**The project's opportunity is to help workers understand their situation before starting an official procedure, with visible evidence and an appropriate referral.** Dirección del Trabajo (DT, the Labor Directorate), SUSESO, and ChileAtiende provide complementary patterns: access by profile, preparation and tracking, and explanation by need. Their public screens also show friction relevant to the UX personas: jargon, help far from the decision point, and actions whose prominence does not match the need to understand first. This study compares experiences; it does not determine individual rights or constitute a legal audit of the institutions. The team's proposal remains a concept, and its capabilities are not presented as implemented. The benchmark informs the [Customer Journey](../customer-journey/README.md) and the subsequent prototype.
+**The project's opportunity is to help workers understand their situation before starting an official procedure, with visible evidence and an appropriate referral.** Dirección del Trabajo (DT, the Labor Directorate), SUSESO, and ChileAtiende provide complementary patterns: access by profile, preparation and tracking, and explanation by need. Their public screens also show friction relevant to the UX personas: jargon, help far from the decision point, and actions whose prominence does not match the need to understand first. This study compares experiences; it does not determine individual rights or constitute a legal audit of the institutions. The team's proposal remains a concept, and its capabilities are not presented as implemented. The benchmark informs the [Customer Journey](../../scope/customer-journey/README.md) and the subsequent prototype.
 
 ## Three categories support comparison across different mandates
 
@@ -20,7 +20,7 @@ The inventory identifies reviewed platforms and destinations; it is not a market
 | BCN / Ley Chile | Legal information web application: [Ley Chile](https://www.bcn.cl/leychile/Consulta/) | Supplementary source | Excluded: documentary focus; retained as a legal reference. |
 | ChatGPT | Web conversational assistant: [official documentation](https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth) | General conversational substitute | Excluded: scope differs from the three institutional services. |
 
-The [comparison matrix](../benchmark/tabla-comparativa.md) applies ten assignment dimensions—identification, profile, value, prioritized features, onboarding, navigation, design, observable accessibility, strengths, and problems—and four domain dimensions: legal traceability, limits and uncertainty, competent referral, and privacy/control. It distinguishes **observed**, **documented**, and **proposed** capabilities. Associations with Nielsen interpret interface evidence; they are not test results or measured severity scores. H2 concerns familiar language; H3, control; H4, consistency; H5, error prevention; H6, recognition; H8, relevant hierarchy; and H10, contextual help. ([Nielsen's heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)).
+The [comparison matrix](../../strategy/benchmark/tabla-comparativa.md) applies ten assignment dimensions—identification, profile, value, prioritized features, onboarding, navigation, design, observable accessibility, strengths, and problems—and four domain dimensions: legal traceability, limits and uncertainty, competent referral, and privacy/control. It distinguishes **observed**, **documented**, and **proposed** capabilities. Associations with Nielsen interpret interface evidence; they are not test results or measured severity scores. H2 concerns familiar language; H3, control; H4, consistency; H5, error prevention; H6, recognition; H8, relevant hierarchy; and H10, contextual help. ([Nielsen's heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)).
 
 ## DT provides authority, but evidence is distant from the decision
 
@@ -30,13 +30,13 @@ DT01 shows worker and employer cards: the first strength is a recognizable, rele
 
 The page explains procedures and documents, but the term for an authorized attesting official remains without a glossary in the observed fragment. An external manual adds instructions without replacing brief contextual help. Institutional blue, large cards, and section headings dominate the visual design. Text size controls are visible, and DT01 shows horizontal scrolling; neither observation establishes full accessibility. The public route observed was homepage → [Workers](https://www.dt.gob.cl/portal/1626/w3-propertyvalue-26864.html) → severance page: three pages. Screenshots cover the homepage and upper/lower parts of the information page. Mi DT's transactional depth remains unknown. ([DT information page](https://dt.gob.cl/portal/1626/w3-article-117245.html)).
 
-![DT01: profile entry and preceding notice](../benchmark/capturas/direccion-trabajo/01-anotada.png)
+![DT01: profile entry and preceding notice](../../strategy/benchmark/capturas/direccion-trabajo/01-anotada.png)
 *DT01. Recognizable profiles; the representatives' notice precedes the worker entry.*
 
-![DT02: severance description and requirements](../benchmark/capturas/direccion-trabajo/02-anotada.png)
+![DT02: severance description and requirements](../../strategy/benchmark/capturas/direccion-trabajo/02-anotada.png)
 *DT02. Description and documents; an external manual does not replace a brief contextual glossary.*
 
-![DT03: support and legal framework at the bottom](../benchmark/capturas/direccion-trabajo/03-anotada.png)
+![DT03: support and legal framework at the bottom](../../strategy/benchmark/capturas/direccion-trabajo/03-anotada.png)
 *DT03. Help and legal evidence are available at the end of a long information page.*
 
 ## SUSESO separates intentions but requires institutional vocabulary
@@ -47,13 +47,13 @@ The observed sequence was guidance tool → workers → medical leave → two si
 
 The public simulator declares that its result is an estimate and defines which cases it covers. This transferable pattern explains assumptions before presenting a figure. The published complaint lifecycle documents preparation, review, and status checks, but does not establish that current private screens exactly match the tutorial. The login screen offers ClaveÚnica and tax credentials. A historical reference to creating a password is not treated as a verified current personal access option. ([Simulator](https://www.suseso.gob.cl/606/w3-article-711911.html), [Complaint lifecycle](https://www.suseso.gob.cl/606/w3-propertyvalue-562466.html), [PAE login](https://pae.suseso.gob.cl/pae-web/loginCiudadano)).
 
-![SU01: separate complaint and tracking actions](../benchmark/capturas/suseso/01-anotada.png)
+![SU01: separate complaint and tracking actions](../../strategy/benchmark/capturas/suseso/01-anotada.png)
 *SU01. Starting and tracking a complaint are separate actions; the simulator is presented as an estimate.*
 
-![SU02: guidance organized by profile](../benchmark/capturas/suseso/02-anotada.png)
+![SU02: guidance organized by profile](../../strategy/benchmark/capturas/suseso/02-anotada.png)
 *SU02. Profile selection prepares the route before authentication is requested.*
 
-![SU03: medical leave situations and overlapping control](../benchmark/capturas/suseso/03-anotada.png)
+![SU03: medical leave situations and overlapping control](../../strategy/benchmark/capturas/suseso/03-anotada.png)
 *SU03. Institutional language and partial overlap of the Back control at the observed window size.*
 
 ## ChileAtiende explains actions and must balance help with procedures
@@ -64,22 +64,22 @@ The first strength in CA01 is an explanation of the technical term for grounds a
 
 CA03 shows remote and in-person channels through explanatory cards. The header and typography change between the information page and the service network: **the second problem is visual consistency** (H4). Social media appears before service channels, another priority poorly aligned with an urgent need (H8). Underlined links and the visible outline of the expanded accordion help identify interaction; keyboard and screen reader behavior were not tested. The portal should not receive credit for deciding cases, uploading documents, or calculating settlements: information pages refer users to the responsible service. ([Service network](https://www.chileatiende.gob.cl/red-de-atencion)).
 
-![CA01: severance explanation and fixed action](../benchmark/capturas/chileatiende/01-anotada.png)
+![CA01: severance explanation and fixed action](../../strategy/benchmark/capturas/chileatiende/01-anotada.png)
 *CA01. Term explanations and date are visible; ratification visually dominates help.*
 
-![CA02: ratification alternatives](../benchmark/capturas/chileatiende/02-anotada.png)
+![CA02: ratification alternatives](../../strategy/benchmark/capturas/chileatiende/02-anotada.png)
 *CA02. The expanded section identifies DT, ClaveÚnica, and an in-person alternative.*
 
-![CA03: service network and channel cards](../benchmark/capturas/chileatiende/03-anotada.png)
+![CA03: service network and channel cards](../../strategy/benchmark/capturas/chileatiende/03-anotada.png)
 *CA03. Channels are explained; social media comes first and the visual treatment differs from the information page.*
 
 ## The prototype should prioritize understanding, evidence, and control
 
-**Garrett: Strategy.** The concept is guided by the need to understand with evidence before acting. Its product objective is referral to the appropriate authority with explained confidence. The following priorities are **proposals for team validation, not approved decisions**. Findings refine the [Canvas](../value_proposition.png) and [UX personas](../ux-personas/). For Benjamin, we propose adopting SUSESO's situation entry and progressive preparation, while avoiding jargon at entry or premature complaints. For William, we propose DT's official sources and human support, while avoiding identification requests for initial general guidance or promises of no retaliation. His occupation alone does not establish the applicable working time regime: the route must ask about transport type and available records first. For Joseph, we propose ChileAtiende's everyday explanations and alternatives, while avoiding greater prominence for signing than understanding. These are **design hypotheses**, not preferences confirmed with users. ([DT sector consultation](https://dt.gob.cl/portal/1628/w3-article-60075.html)).
+**Garrett: Strategy.** The concept is guided by the need to understand with evidence before acting. Its product objective is referral to the appropriate authority with explained confidence. The following priorities are **proposals for team validation, not approved decisions**. Findings refine the [Canvas](../../strategy/value-proposition/value_proposition.png) and [UX personas](../../strategy/ux-personas/). For Benjamin, we propose adopting SUSESO's situation entry and progressive preparation, while avoiding jargon at entry or premature complaints. For William, we propose DT's official sources and human support, while avoiding identification requests for initial general guidance or promises of no retaliation. His occupation alone does not establish the applicable working time regime: the route must ask about transport type and available records first. For Joseph, we propose ChileAtiende's everyday explanations and alternatives, while avoiding greater prominence for signing than understanding. These are **design hypotheses**, not preferences confirmed with users. ([DT sector consultation](https://dt.gob.cl/portal/1628/w3-article-60075.html)).
 
 **Garrett: Scope.** We propose a focused prototype route: select the problem, collect minimal context, explain with a source and review date, identify missing information, and prepare a referral. The source should accompany its claim rather than remain at the end of a document. The confidence level proposed in the Canvas should use understandable reasons—source relevance, missing evidence, or discrepancies—without arbitrary percentages or a label implying legal certainty. The feature map summarizes observed, documented, and proposed capabilities.
 
-![Benchmark feature map](../benchmark/feature-map.png)
+![Benchmark feature map](../../strategy/benchmark/feature-map.png)
 *Feature map. The team's proposal is a hypothesis; documented capabilities do not equal executed tests.*
 
 A second priority is continuity: a reviewable summary, document checklist, and human guidance alternative. Information should be saved only at the user's explicit choice, with its use explained and deletion available. **Retention policies and deletion controls were not verified** for the three references. Public reading demonstrates that information can be offered without login, but does not prove an absence of tracking. The benchmark does not recommend collecting medical evidence to explain first medical leave or storing employment documents in the first version.
@@ -90,8 +90,8 @@ The Canvas proposes automatic referral to the Labor Inspectorate for complex cas
 
 **The current status is phase 2 documentary research with public interface inspection.** Supervised use of authenticated flows, accessibility checks, and team validation of findings and priorities remain pending. This review is not attributed to meetings, interviews, reviews, or tests that did not occur. To advance, the team should agree on equivalent scenarios for each persona and observe whether participants can explain their situation, locate supporting evidence, and select appropriate help without confusing guidance with an official decision.
 
-The [Customer Journey](../customer-journey/README.md) translates these hypotheses into touchpoints and opportunities; its emotions must be identified as inferred. Later evaluation should especially observe three errors: Benjamin starts a complaint inappropriate to his stage; William applies a working time rule without classifying his work; Joseph interprets an answer as authorization to sign. Reducing these confusions is a more useful criterion for this project than counting features or declaring a winner among portals with different mandates.
+The [Customer Journey](../../scope/customer-journey/README.md) translates these hypotheses into touchpoints and opportunities; its emotions must be identified as inferred. Later evaluation should especially observe three errors: Benjamin starts a complaint inappropriate to his stage; William applies a working time rule without classifying his work; Joseph interprets an answer as authorization to sign. Reducing these confusions is a more useful criterion for this project than counting features or declaring a winner among portals with different mandates.
 
 ## LaTeX submission report
 
-[APA 7 formatted PDF](../benchmark/benchmark.pdf) · [Sources, UFRO cover, and build instructions](../benchmark/latex/README.md). The format revision is dated October 8, 2026; findings and screenshots retain their October 5 observation date. The report includes author-date citations, alphabetical references, five tables, and ten figures. The institutional cover was adapted from the Networks report specified by the user.
+[APA 7 formatted PDF](../../strategy/benchmark/benchmark.pdf) · [Sources, UFRO cover, and build instructions](../../strategy/benchmark/latex/README.md). The format revision is dated October 8, 2026; findings and screenshots retain their October 5 observation date. The report includes author-date citations, alphabetical references, five tables, and ten figures. The institutional cover was adapted from the Networks report specified by the user.

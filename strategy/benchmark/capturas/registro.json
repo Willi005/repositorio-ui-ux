@@ -7,8 +7,8 @@
       866,
       922
     ],
-    "original": "benchmark/capturas/direccion-trabajo/01-original.jpg",
-    "annotated": "benchmark/capturas/direccion-trabajo/01-anotada.png",
+    "original": "strategy/benchmark/capturas/direccion-trabajo/01-original.jpg",
+    "annotated": "strategy/benchmark/capturas/direccion-trabajo/01-anotada.png",
     "comments": [
       "1. Visible worker entry helps users recognize their profile.",
       "2. Tax credential notice appears before the worker task (H8)."
@@ -22,8 +22,8 @@
       866,
       922
     ],
-    "original": "benchmark/capturas/direccion-trabajo/02-original.jpg",
-    "annotated": "benchmark/capturas/direccion-trabajo/02-anotada.png",
+    "original": "strategy/benchmark/capturas/direccion-trabajo/02-original.jpg",
+    "annotated": "strategy/benchmark/capturas/direccion-trabajo/02-anotada.png",
     "comments": [
       "1. Separates online and in-person procedures to support channel choice.",
       "2. The term for an attesting official lacks an immediate explanation (H2)."
@@ -37,8 +37,8 @@
       866,
       922
     ],
-    "original": "benchmark/capturas/direccion-trabajo/03-original.jpg",
-    "annotated": "benchmark/capturas/direccion-trabajo/03-anotada.png",
+    "original": "strategy/benchmark/capturas/direccion-trabajo/03-original.jpg",
+    "annotated": "strategy/benchmark/capturas/direccion-trabajo/03-anotada.png",
     "comments": [
       "1. Consultation and phone options provide a visible route to human help.",
       "2. Links the relevant article, but at the end of a long information page."
@@ -52,8 +52,8 @@
       866,
       922
     ],
-    "original": "benchmark/capturas/suseso/01-original.jpg",
-    "annotated": "benchmark/capturas/suseso/01-anotada.png",
+    "original": "strategy/benchmark/capturas/suseso/01-original.jpg",
+    "annotated": "strategy/benchmark/capturas/suseso/01-anotada.png",
     "comments": [
       "1. Filing and tracking a complaint are presented as separate tasks.",
       "2. The guidance tool explains its role in preparing complaint evidence."
@@ -67,8 +67,8 @@
       866,
       922
     ],
-    "original": "benchmark/capturas/suseso/02-original.jpg",
-    "annotated": "benchmark/capturas/suseso/02-anotada.png",
+    "original": "strategy/benchmark/capturas/suseso/02-original.jpg",
+    "annotated": "strategy/benchmark/capturas/suseso/02-anotada.png",
     "comments": [
       "1. Worker guidance can be selected before the reason for the request.",
       "2. The visible navigation path helps identify the current location."
@@ -82,8 +82,8 @@
       866,
       922
     ],
-    "original": "benchmark/capturas/suseso/03-original.jpg",
-    "annotated": "benchmark/capturas/suseso/03-anotada.png",
+    "original": "strategy/benchmark/capturas/suseso/03-original.jpg",
+    "annotated": "strategy/benchmark/capturas/suseso/03-anotada.png",
     "comments": [
       "1. Wording about a COMPIN decision requires institutional vocabulary (H2).",
       "2. Text controls partly cover Back in this view (H3/H8)."
@@ -97,8 +97,8 @@
       866,
       922
     ],
-    "original": "benchmark/capturas/chileatiende/01-original.jpg",
-    "annotated": "benchmark/capturas/chileatiende/01-anotada.png",
+    "original": "strategy/benchmark/capturas/chileatiende/01-original.jpg",
+    "annotated": "strategy/benchmark/capturas/chileatiende/01-anotada.png",
     "comments": [
       "1. The displayed update makes the content date visible.",
       "2. Ratify dominates Help before the case has been verified (H5/H8)."
@@ -112,8 +112,8 @@
       866,
       922
     ],
-    "original": "benchmark/capturas/chileatiende/02-original.jpg",
-    "annotated": "benchmark/capturas/chileatiende/02-anotada.png",
+    "original": "strategy/benchmark/capturas/chileatiende/02-original.jpg",
+    "annotated": "strategy/benchmark/capturas/chileatiende/02-anotada.png",
     "comments": [
       "1. Explains online access with ClaveÚnica and an in-person alternative.",
       "2. Task-based accordion reveals information on request."
@@ -127,8 +127,8 @@
       866,
       922
     ],
-    "original": "benchmark/capturas/chileatiende/03-original.jpg",
-    "annotated": "benchmark/capturas/chileatiende/03-anotada.png",
+    "original": "strategy/benchmark/capturas/chileatiende/03-original.jpg",
+    "annotated": "strategy/benchmark/capturas/chileatiende/03-anotada.png",
     "comments": [
       "1. Cards compare video, phone, and form-based service channels.",
       "2. Header and typography differ from the CA01 information page (H4)."

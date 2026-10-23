@@ -6,8 +6,8 @@ import subprocess
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / 'benchmark' / 'latex'
-DESTINATION = ROOT / 'benchmark' / 'benchmark.pdf'
+SOURCE = ROOT / 'strategy' / 'benchmark' / 'latex'
+DESTINATION = ROOT / 'strategy' / 'benchmark' / 'benchmark.pdf'
 
 
 def build_report():
