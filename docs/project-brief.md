@@ -20,4 +20,4 @@ The course presented 16 potential projects. Each group selects one problem and c
 ## Current design artifacts
 
 - [UX personas](../strategy/ux-personas) cover medical leave, unpaid overtime, and severance settlement scenarios.
-- [Value Proposition Canvas](../strategy/value-proposition/value_proposition.png) connects those needs to proposed guidance, citations, verification, confidence cues, and referrals.
+- [Value Proposition Canvas](../strategy/value-proposition/value-proposition.png) connects those needs to proposed guidance, citations, verification, confidence cues, and referrals.

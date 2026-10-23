@@ -49,7 +49,7 @@ Deliverables are in [`strategy/`](strategy/).
 
 We mapped workers' jobs, pains, and desired gains to the product's proposed features, pain relievers, and benefits. The canvas links needs such as understanding a settlement, handling medical leave, and knowing when to contact the Labor Inspectorate to plain-language guidance, legal citations, visible confidence levels, and referral to the competent authority.
 
-![Value Proposition Canvas for verified AI-assisted labor rights guidance](strategy/value-proposition/value_proposition.png)
+![Value Proposition Canvas for verified AI-assisted labor rights guidance](strategy/value-proposition/value-proposition.png)
 
 ### 3.2. UX Personas
 
@@ -93,7 +93,7 @@ We mapped William's journey from noticing potentially unpaid hours to preparing 
 
 [View the definitive Customer Journey PDF](scope/customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) or read its [brief explanation](scope/customer-journey/README.md).
 
-[![William's definitive Customer Journey](scope/customer-journey/definitivo.png)](scope/customer-journey/Customer%20Journey%20%C2%B7%20William.pdf)
+[![William's definitive Customer Journey](scope/customer-journey/definitive.png)](scope/customer-journey/Customer%20Journey%20%C2%B7%20William.pdf)
 
 ## 5. Skeleton
 
