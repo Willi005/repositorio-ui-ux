@@ -14,9 +14,11 @@ User experience design process for Justiciano: verified AI-assisted labor rights
    - [3.3. Benchmarking](#33-benchmarking)
 4. [Scope](#4-scope)
    - [4.1. Customer Journey Map](#41-customer-journey-map)
-5. [Skeleton](#5-skeleton)
-   - [5.1. Low-Fi Wireframes](#51-low-fi-wireframes)
-6. [Annex](#6-annex)
+5. [Structure](#5-structure)
+   - [5.1. Navigation Flow](#51-navigation-flow)
+6. [Skeleton](#6-skeleton)
+   - [6.1. Low-Fi Wireframes](#61-low-fi-wireframes)
+7. [Annex](#7-annex)
 
 ## 1. Introduction
 
@@ -95,11 +97,21 @@ We mapped William's journey from noticing potentially unpaid hours to preparing 
 
 [![William's definitive Customer Journey](scope/customer-journey/definitive.png)](scope/customer-journey/Customer%20Journey%20%C2%B7%20William.pdf)
 
-## 5. Skeleton
+## 5. Structure
+
+Deliverables are in [`structure/`](structure/).
+
+### 5.1. Navigation Flow
+
+The onboarding page leads to three sections: the assistant, the work profile, and privacy and data. The sidebar links them on every app screen. The diagram shows the screens and steps of each section and marks the one step the wireframes do not cover yet: referral to the Labor Directorate. Read the [open points](structure/README.md#open-points) or the [SVG version](structure/navigation-flow.svg).
+
+![Navigation flow of Justiciano](structure/navigation-flow.png)
+
+## 6. Skeleton
 
 Deliverables are in [`skeleton/`](skeleton/).
 
-### 5.1. Low-Fi Wireframes
+### 6.1. Low-Fi Wireframes
 
 The main view is **My assistant**, where a worker starts a consultation from one of four topics or from a free-text question. The permanent notice under the input states that Justiciano can make mistakes and does not replace professional advice.
 
@@ -112,7 +124,7 @@ The remaining views are available in the [wireframes directory](skeleton/wirefra
 - [My work profile](skeleton/wireframes/README.md#my-work-profile): optional context about the worker's job.
 - [Privacy and data](skeleton/wireframes/README.md#privacy-and-data): what is shared and how to control it.
 
-## 6. Annex
+## 7. Annex
 
 Supporting material is in [`annex/`](annex/): the [research notes](annex/research-notes/), the [benchmarking report in Markdown](annex/reports/), and the [activity verification](annex/activity-verification.md). The [project brief](docs/project-brief.md) and the [scripts that reproduce the generated artifacts](scripts/README.md) are available in `docs/` and `scripts/`.
 
@@ -124,6 +136,7 @@ Supporting material is in [`annex/`](annex/): the [research notes](annex/researc
 ├── docs/            # Project brief
 ├── strategy/        # Value proposition, UX personas, benchmarking
 ├── scope/           # Customer journey
+├── structure/       # Navigation flow
 ├── skeleton/        # Low-fidelity wireframes
 ├── annex/           # Research notes, reports, activity verification
 └── scripts/         # Reproducible artifact generators
