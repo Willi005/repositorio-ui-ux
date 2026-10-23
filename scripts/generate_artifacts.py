@@ -52,7 +52,7 @@ def save_svg(path, svg):
 
 
 CAPTURES = {
-'direccion-trabajo': [
+'labor-directorate': [
  ('DT · Entry by user profile', 'https://www.dt.gob.cl/portal/1626/w3-channel.html', [(160,160,680,432,TEAL),(4,61,850,121,RUST)], ['1. Visible worker entry helps users recognize their profile.', '2. Tax credential notice appears before the worker task (H8).']),
  ('DT · Settlement explanation and requirements', 'https://www.dt.gob.cl/portal/1626/w3-article-117245.html', [(45,420,804,518,TEAL),(43,339,803,379,RUST)], ['1. Separates online and in-person procedures to support channel choice.', '2. The term for an attesting official lacks an immediate explanation (H2).']),
  ('DT · Help and legal evidence', 'https://www.dt.gob.cl/portal/1626/w3-article-117245.html', [(40,325,810,428,TEAL),(38,450,810,517,TEAL)], ['1. Consultation and phone options provide a visible route to human help.', '2. Links the relevant article, but at the end of a long information page.'])
@@ -73,7 +73,7 @@ def annotate_captures():
     manifest=[]
     for tool,items in CAPTURES.items():
         for i,(title,url,boxes,comments) in enumerate(items,1):
-            original=ROOT/'strategy/benchmark/capturas'/tool/f'{i:02}-original.jpg'
+            original=ROOT/'strategy/benchmark/screenshots'/tool/f'{i:02}-original.jpg'
             source=Image.open(original).convert('RGB')
             width,height=source.size
             result=Image.new('RGB',(width,height+145),'#F7FAFB')
@@ -89,10 +89,10 @@ def annotate_captures():
                 if len(wrap(comment,width-36,16))>1:
                     raise ValueError(f'Caption overflow {comment}')
                 draw.text((18,height+86+j*24),comment,font=ImageFont.truetype(FONT,16),fill=NAVY)
-            path=original.with_name(f'{i:02}-anotada.png')
+            path=original.with_name(f'{i:02}-annotated.png')
             result.save(path)
             manifest.append({'id':f'{tool}-{i:02}','url':url,'date':'2026-10-05','viewport':[width,height],'original':str(original.relative_to(ROOT)),'annotated':str(path.relative_to(ROOT)),'comments':comments})
-    (ROOT/'strategy/benchmark/capturas/registro.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'strategy/benchmark/screenshots/manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 
 
 FEATURES = [
