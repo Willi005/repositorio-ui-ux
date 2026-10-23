@@ -22,7 +22,7 @@ Benchmark observation: **October 5, 2026**. Journey and report revision: **Octob
 
 ## Definitive Customer Journey
 
-The user replaced the previous journey with `customer-journey/Customer Journey · William.pdf` and declared it definitive. The PDF remains unmodified; `definitivo.png` is rendered from it for display in the main README.
+The user replaced the previous journey with `scope/customer-journey/Customer Journey · William.pdf` and declared it definitive. The PDF remains unmodified; `definitivo.png` is rendered from it for display in the main README.
 
 | Content | Evidence in definitive PDF |
 | --- | --- |

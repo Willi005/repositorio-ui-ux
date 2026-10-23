@@ -20,10 +20,10 @@ pdftoppm -f 1 -l 1 -png -singlefile -scale-to 1600 strategy/benchmark/benchmark.
 
 ## Definitive Customer Journey
 
-The [Customer Journey · William PDF](../customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) is the user's definitive submission and is preserved without modification. Generate its GitHub preview with Poppler from the repository root:
+The [Customer Journey · William PDF](../scope/customer-journey/Customer%20Journey%20%C2%B7%20William.pdf) is the user's definitive submission and is preserved without modification. Generate its GitHub preview with Poppler from the repository root:
 
 ```bash
-pdftoppm -png -singlefile -scale-to 2800 'customer-journey/Customer Journey · William.pdf' customer-journey/definitivo
+pdftoppm -png -singlefile -scale-to 2800 'scope/customer-journey/Customer Journey · William.pdf' scope/customer-journey/definitivo
 ```
 
-Benchmark scripts do not generate or overwrite the Journey. Earlier copies were removed from the current submission and remain recoverable in Git. [Submission description](../customer-journey/README.md).
+Benchmark scripts do not generate or overwrite the Journey. Earlier copies were removed from the current submission and remain recoverable in Git. [Submission description](../scope/customer-journey/README.md).
