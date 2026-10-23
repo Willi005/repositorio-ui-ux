@@ -130,7 +130,7 @@ def create_feature_map():
     content+=text_block(40,1279,'* Documented in official sources; authenticated flows and the simulator were not completed.',1720,23)
     content+=text_block(40,1320,'Unobserved refers only to reviewed screens; it does not establish that a feature is absent from the product.',1720,23)
     content+=text_block(40,1361,'Baseline describes this sample. Opportunities and the proposal require user and team validation.',1720,23)
-    content+=text_block(40,1402,'Evidence and sources: benchmark/README.md and tabla-comparativa.md. The proposal is not yet implemented.',1720,22)
+    content+=text_block(40,1402,'Evidence and sources: strategy/benchmark/README.md and strategy/benchmark/comparison-matrix.md. The proposal is not yet implemented.',1720,22)
     save_svg(ROOT/'strategy/benchmark/feature-map.svg',svg_document(1800,1450,content,'Benchmark feature comparison map'))
 
 
