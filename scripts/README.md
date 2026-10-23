@@ -27,3 +27,11 @@ pdftoppm -png -singlefile -scale-to 2800 'scope/customer-journey/Customer Journe
 ```
 
 Benchmark scripts do not generate or overwrite the Journey. Earlier copies were removed from the current submission and remain recoverable in Git. [Submission description](../scope/customer-journey/README.md).
+
+## Navigation flow
+
+`generate_structure.py` draws the [navigation flow](../structure/README.md) from the screens, steps, and proposals listed in the script, which follow the wireframes. It writes `structure/navigation-flow.svg` and `structure/navigation-flow.png` and needs only the dependencies installed above:
+
+```bash
+.venv-artifacts/bin/python scripts/generate_structure.py
+```
