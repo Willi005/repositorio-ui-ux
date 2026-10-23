@@ -1,0 +1,137 @@
+[
+  {
+    "id": "labor-directorate-01",
+    "url": "https://www.dt.gob.cl/portal/1626/w3-channel.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "strategy/benchmark/screenshots/labor-directorate/01-original.jpg",
+    "annotated": "strategy/benchmark/screenshots/labor-directorate/01-annotated.png",
+    "comments": [
+      "1. Visible worker entry helps users recognize their profile.",
+      "2. Tax credential notice appears before the worker task (H8)."
+    ]
+  },
+  {
+    "id": "labor-directorate-02",
+    "url": "https://www.dt.gob.cl/portal/1626/w3-article-117245.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "strategy/benchmark/screenshots/labor-directorate/02-original.jpg",
+    "annotated": "strategy/benchmark/screenshots/labor-directorate/02-annotated.png",
+    "comments": [
+      "1. Separates online and in-person procedures to support channel choice.",
+      "2. The term for an attesting official lacks an immediate explanation (H2)."
+    ]
+  },
+  {
+    "id": "labor-directorate-03",
+    "url": "https://www.dt.gob.cl/portal/1626/w3-article-117245.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "strategy/benchmark/screenshots/labor-directorate/03-original.jpg",
+    "annotated": "strategy/benchmark/screenshots/labor-directorate/03-annotated.png",
+    "comments": [
+      "1. Consultation and phone options provide a visible route to human help.",
+      "2. Links the relevant article, but at the end of a long information page."
+    ]
+  },
+  {
+    "id": "suseso-01",
+    "url": "https://www.suseso.gob.cl/606/w3-propertyvalue-610.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "strategy/benchmark/screenshots/suseso/01-original.jpg",
+    "annotated": "strategy/benchmark/screenshots/suseso/01-annotated.png",
+    "comments": [
+      "1. Filing and tracking a complaint are presented as separate tasks.",
+      "2. The guidance tool explains its role in preparing complaint evidence."
+    ]
+  },
+  {
+    "id": "suseso-02",
+    "url": "https://www.suseso.gob.cl/606/w3-propertyname-509.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "strategy/benchmark/screenshots/suseso/02-original.jpg",
+    "annotated": "strategy/benchmark/screenshots/suseso/02-annotated.png",
+    "comments": [
+      "1. Worker guidance can be selected before the reason for the request.",
+      "2. The visible navigation path helps identify the current location."
+    ]
+  },
+  {
+    "id": "suseso-03",
+    "url": "https://www.suseso.gob.cl/606/w3-propertyvalue-586.html",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "strategy/benchmark/screenshots/suseso/03-original.jpg",
+    "annotated": "strategy/benchmark/screenshots/suseso/03-annotated.png",
+    "comments": [
+      "1. Wording about a COMPIN decision requires institutional vocabulary (H2).",
+      "2. Text controls partly cover Back in this view (H3/H8)."
+    ]
+  },
+  {
+    "id": "chileatiende-01",
+    "url": "https://www.chileatiende.gob.cl/fichas/33522",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "strategy/benchmark/screenshots/chileatiende/01-original.jpg",
+    "annotated": "strategy/benchmark/screenshots/chileatiende/01-annotated.png",
+    "comments": [
+      "1. The displayed update makes the content date visible.",
+      "2. Ratify dominates Help before the case has been verified (H5/H8)."
+    ]
+  },
+  {
+    "id": "chileatiende-02",
+    "url": "https://www.chileatiende.gob.cl/fichas/33522",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "strategy/benchmark/screenshots/chileatiende/02-original.jpg",
+    "annotated": "strategy/benchmark/screenshots/chileatiende/02-annotated.png",
+    "comments": [
+      "1. Explains online access with ClaveÚnica and an in-person alternative.",
+      "2. Task-based accordion reveals information on request."
+    ]
+  },
+  {
+    "id": "chileatiende-03",
+    "url": "https://www.chileatiende.gob.cl/red-de-atencion",
+    "date": "2026-10-05",
+    "viewport": [
+      866,
+      922
+    ],
+    "original": "strategy/benchmark/screenshots/chileatiende/03-original.jpg",
+    "annotated": "strategy/benchmark/screenshots/chileatiende/03-annotated.png",
+    "comments": [
+      "1. Cards compare video, phone, and form-based service channels.",
+      "2. Header and typography differ from the CA01 information page (H4)."
+    ]
+  }
+]

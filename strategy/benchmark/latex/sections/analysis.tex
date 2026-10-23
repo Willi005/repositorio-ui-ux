@@ -1,0 +1,239 @@
+\section*{\reportTitle}
+
+\textbf{The project's opportunity is to help workers understand their situation before starting an official procedure, with visible evidence and an appropriate referral.} Dirección del Trabajo (DT, the Labor Directorate), SUSESO, and ChileAtiende provide complementary patterns: access by profile, preparation and tracking, and explanation by need. Their public screens also show friction relevant to the UX personas: jargon, help far from the decision point, and actions whose prominence does not match the need to understand first. This study compares experiences; it does not determine individual rights or constitute a legal audit of the institutions. The team's proposal remains a concept, and its capabilities are not presented as implemented. The benchmark informs the William's Customer Journey and the subsequent prototype.
+
+
+\section{Three categories support comparison across different mandates}
+
+The research question is how to provide understandable, verifiable guidance about first medical leave, unpaid overtime, and severance settlements without turning an explanation into a legal decision. The observation date is \textbf{October 5, 2026}. We reviewed official sources and nine public screenshots, three per service, captured with a visible area of 866 × 922 pixels. This sample supports observations about pages, labels, hierarchy, and an expanded accordion; it does not represent entire flows or all devices. None of the reviewed pages published a product version number. A page's update date is not a product version.
+
+
+The initial ecosystem considered DT/Mi DT, SUSESO, ChileAtiende, BCN/Ley Chile, and ChatGPT. \textbf{DT is the direct functional comparison}, because it offers labor guidance and procedures. SUSESO is a \textbf{sector analogue}, because it supports preparation, complaints, and tracking in social security. ChileAtiende is an \textbf{information design and referral reference}. These three cover the repository's scenarios and support comparison of public interfaces across distinct responsibilities. DT's consultation center organizes labor topics; SUSESO specifies the institutions and matters under its supervision; ChileAtiende communicates benefits, requirements, and channels. These categories are methodological choices of this study. (\hyperref[ref:ca_descripcion]{ChileAtiende, n.d.-d}; \hyperref[ref:dt_consultas]{Dirección del Trabajo [DT], n.d.-b}; \hyperref[ref:su_competencia]{Superintendencia de Seguridad Social [SUSESO], n.d.-i}).
+
+
+BCN/Ley Chile remains a supplementary legal source, but is excluded from the main matrix because its documentary focus differs from the preparation and referral experience studied; its search interface was not inspected. ChatGPT is acknowledged as a general conversational substitute and excluded from the three institutional experiences because of its different scope. Its documentation acknowledges incorrect answers and the need to verify information. This limitation reinforces the trust problem but does not evaluate its performance on labor questions. The selection establishes neither market leadership nor the absence of commercial alternatives. (\hyperref[ref:bcn]{Biblioteca del Congreso Nacional de Chile [BCN], n.d.}; \hyperref[ref:openai]{OpenAI, n.d.}).
+
+
+The inventory identifies reviewed platforms and destinations; it is not a market census.
+
+
+The inventory in Table~\ref{tab:ecosistema} identifies the selected references.
+
+\begin{singlespace}\begin{xltabular}{\textwidth}{@{}p{1.25in}YYY@{}}\caption{Considered ecosystem and selection of references}\label{tab:ecosistema}\\\toprule
+
+\textbf{Name} & \textbf{Platform and official URL} & \textbf{Classification} & \textbf{Matrix selection}\\\midrule\endfirsthead
+
+\multicolumn{4}{l}{\textbf{Table \thetable} (continued)}\\\toprule\textbf{Name} & \textbf{Platform and official URL} & \textbf{Classification} & \textbf{Matrix selection}\\\midrule\endhead\bottomrule\endfoot\bottomrule\addlinespace[4pt]\multicolumn{4}{@{}p{\textwidth}@{}}{\doublespacing\normalsize\textit{Note.} Created by the team. Categories are methodological choices rather than market classifications.}\\\endlastfoot
+
+Dirección del Trabajo / Mi DT & Institutional website and procedure portal: \hyperref[ref:dt_inicio]{(DT, n.d.-a)} & Direct functional comparison & Included: labor guidance and preparation for severance/overtime questions.\\\addlinespace[5pt]
+
+SUSESO & Institutional website and PAE access: \hyperref[ref:su_usuarios]{(SUSESO, n.d.-h)} & Sector analogue & Included: medical leave, complaint preparation, and tracking.\\\addlinespace[5pt]
+
+ChileAtiende & Information website: \hyperref[ref:ca_descripcion]{(ChileAtiende, n.d.-d)} & Design reference & Included: everyday language, actions, and channels.\\\addlinespace[5pt]
+
+BCN / Ley Chile & Legal information web application: \hyperref[ref:bcn]{(BCN, n.d.)} & Supplementary source & Excluded: documentary focus; retained as a legal reference.\\\addlinespace[5pt]
+
+ChatGPT & Web conversational assistant: \hyperref[ref:openai]{(OpenAI, n.d.)} & General conversational substitute & Excluded: scope differs from the three institutional services.\\\addlinespace[5pt]
+
+\end{xltabular}\end{singlespace}
+
+The the comparison matrix applies ten assignment dimensions—identification, profile, value, prioritized features, onboarding, navigation, design, observable accessibility, strengths, and problems—and four domain dimensions: legal traceability, limits and uncertainty, competent referral, and privacy/control. It distinguishes \textbf{observed}, \textbf{documented}, and \textbf{proposed} capabilities. Associations with Nielsen interpret interface evidence; they are not test results or measured severity scores. H2 concerns familiar language; H3, control; H4, consistency; H5, error prevention; H6, recognition; H8, relevant hierarchy; and H10, contextual help. (\hyperref[ref:nielsen]{Nielsen, 1994}).
+
+
+\section{DT provides authority, but evidence is distant from the decision}
+
+Figures~\ref{fig:dt01} to~\ref{fig:dt03} document profile entry and two parts of the settlement page.
+
+DT is relevant to William and Joseph: it supports labor rights consultation and access to formal services. Features are prioritized here by relevance to these scenarios: topic guidance, procedure preparation, Mi DT access, and human assistance. \textbf{Public reading precedes authentication.} Documentation describes RUN and ClaveÚnica for Mi DT access; the account and internal onboarding were not inspected. Employer and worker routes are kept distinct. (\hyperref[ref:dt_perfiles]{DT, 2022}; \hyperref[ref:dt_ingreso]{DT, 2023}).
+
+
+DT01 shows worker and employer cards: the first strength is a recognizable, relevant profile (H6). DT03 shows SUAC and telephone help alongside a legal framework link: the second strength is verifiable assistance (H10). However, a tax credential notice for labor representatives occupies the top of DT01 before the worker entry. For Joseph's guidance goal, this introduces information for another profile ahead of his task (H8). In DT02–DT03, the long page and legal evidence at the bottom require scrolling and connecting that evidence to the initial explanation (H6/H8). These are potential discoverability problems, not evidence of abandonment. (\hyperref[ref:dt_inicio]{DT, n.d.-a}; \hyperref[ref:dt_finiquito]{DT, n.d.-c}).
+
+
+The page explains procedures and documents, but the term for an authorized attesting official remains without a glossary in the observed fragment. An external manual adds instructions without replacing brief contextual help. Institutional blue, large cards, and section headings dominate the visual design. Text size controls are visible, and DT01 shows horizontal scrolling; neither observation establishes full accessibility. The public route observed was homepage → \hyperref[ref:dt_trabajadores]{(DT, n.d.-d)} → severance page: three pages. Screenshots cover the homepage and upper/lower parts of the information page. Mi DT's transactional depth remains unknown. (\hyperref[ref:dt_finiquito]{DT, n.d.-c}).
+
+
+\clearpage\begin{figure}[p]\centering
+\caption{Profile entry and preceding notice at DT}\label{fig:dt01}
+\includegraphics[width=\textwidth,height=0.70\textheight,keepaspectratio]{../screenshots/labor-directorate/01-annotated.png}
+\par\smallskip\begin{figurenote}\textit{Note.} Recognizable profiles; the representatives' notice precedes the worker entry. Screenshot and annotations by the team of DT (n.d.-a); observed October 5, 2026.\end{figurenote}\end{figure}\clearpage
+
+\clearpage\begin{figure}[p]\centering
+\caption{Settlement description and requirements at DT}\label{fig:dt02}
+\includegraphics[width=\textwidth,height=0.70\textheight,keepaspectratio]{../screenshots/labor-directorate/02-annotated.png}
+\par\smallskip\begin{figurenote}\textit{Note.} Description and documents; an external manual does not replace a brief contextual glossary. Screenshot and annotations by the team of DT (n.d.-c); observed October 5, 2026.\end{figurenote}\end{figure}\clearpage
+
+\clearpage\begin{figure}[p]\centering
+\caption{Help and legal evidence at the bottom of the DT page}\label{fig:dt03}
+\includegraphics[width=\textwidth,height=0.70\textheight,keepaspectratio]{../screenshots/labor-directorate/03-annotated.png}
+\par\smallskip\begin{figurenote}\textit{Note.} Help and legal evidence are available at the end of a long information page. Screenshot and annotations by the team of DT (n.d.-c); observed October 5, 2026.\end{figurenote}\end{figure}\clearpage
+
+\section{SUSESO separates intentions but requires institutional vocabulary}
+
+Figures~\ref{fig:su01} to~\ref{fig:su03} show access, profile selection, and problem classification.
+
+SUSESO is especially relevant to Benjamin because of its social security services. The relevant functional order is guidance, supporting document preparation, estimated benefit simulation, complaint submission, and tracking. SU01 distinguishes filing a complaint from tracking it: \textbf{the first strength is recognizable actions} that separate starting and checking (H6). SU02 offers guidance for workers, families, and other needs: the second strength is classification by profile and situation (H2/H6). No real case file was inspected, and selection time was not measured. (\hyperref[ref:su_orientador]{SUSESO, n.d.-a}; \hyperref[ref:su_usuarios]{SUSESO, n.d.-h}).
+
+
+The observed sequence was guidance tool → workers → medical leave → two situations. SU03 presents rejection/modification and the absence of a COMPIN decision. For a first medical leave, the formal wording for an issued decision and the institutional acronym require prior knowledge without a visible definition in that fragment: \textbf{the first problem is jargon} (H2). The side text size control also partly covers the Back control in the captured area: the second problem is interference with leaving the screen (H3/H8). Options are large, with apparent blue/white contrast, but contrast was not measured. The overlap applies to the captured window size; it is not generalized to all devices. (\hyperref[ref:su_licencias]{SUSESO, n.d.-e}).
+
+
+The public simulator declares that its result is an estimate and defines which cases it covers. This transferable pattern explains assumptions before presenting a figure. The published complaint lifecycle documents preparation, review, and status checks, but does not establish that current private screens exactly match the tutorial. The login screen offers ClaveÚnica and tax credentials. A historical reference to creating a password is not treated as a verified current personal access option. (\hyperref[ref:su_pae]{SUSESO, n.d.-c}; \hyperref[ref:su_simulador]{SUSESO, n.d.-f}; \hyperref[ref:su_ciclo]{SUSESO, n.d.-g}).
+
+
+\clearpage\begin{figure}[p]\centering
+\caption{Separate complaint and tracking actions at SUSESO}\label{fig:su01}
+\includegraphics[width=\textwidth,height=0.70\textheight,keepaspectratio]{../screenshots/suseso/01-annotated.png}
+\par\smallskip\begin{figurenote}\textit{Note.} Starting and tracking a complaint are separate actions; the simulator is presented as an estimate. Screenshot and annotations by the team of SUSESO (n.d.-h); observed October 5, 2026.\end{figurenote}\end{figure}\clearpage
+
+\clearpage\begin{figure}[p]\centering
+\caption{Profile-based guidance at SUSESO}\label{fig:su02}
+\includegraphics[width=\textwidth,height=0.70\textheight,keepaspectratio]{../screenshots/suseso/02-annotated.png}
+\par\smallskip\begin{figurenote}\textit{Note.} Profile selection prepares the route before authentication is requested. Screenshot and annotations by the team of SUSESO (n.d.-a); observed October 5, 2026.\end{figurenote}\end{figure}\clearpage
+
+\clearpage\begin{figure}[p]\centering
+\caption{Institutional language and overlapping control at SUSESO}\label{fig:su03}
+\includegraphics[width=\textwidth,height=0.70\textheight,keepaspectratio]{../screenshots/suseso/03-annotated.png}
+\par\smallskip\begin{figurenote}\textit{Note.} Institutional language and partial overlap of the Back control at the observed window size. Screenshot and annotations by the team of SUSESO (n.d.-e); observed October 5, 2026.\end{figurenote}\end{figure}\clearpage
+
+\section{ChileAtiende explains actions and must balance help with procedures}
+
+Figures~\ref{fig:ca01} to~\ref{fig:ca03} show explanation, ratification options, and service channels.
+
+ChileAtiende is an information reference, rather than the authority deciding a labor case. Its capabilities are ordered by relevance: explaining the need, requirements and steps, referral to the responsible institution, and channel selection. Joseph's information page supports observation of public reading → expanded ratification section → external DT link or an in-person alternative; the procedure was not completed. \textbf{January 27, 2026} appears as the page's last update date. (\hyperref[ref:ca_finiquito]{ChileAtiende, 2026}).
+
+
+The first strength in CA01 is an explanation of the technical term for grounds as a reason: it translates specialized vocabulary (H2). The second strength in CA02 is the separation of obtaining and ratifying a settlement, with expandable information and explicit destinations (H6/H8). Free advice is linked in the description. However, the fixed bar gives ratification more prominence than Help. For Joseph, who seeks understanding before action, that hierarchy deserves review (H8). The issue is the action's priority relative to the scenario's goal. (\hyperref[ref:ca_finiquito]{ChileAtiende, 2026}).
+
+
+CA03 shows remote and in-person channels through explanatory cards. The header and typography change between the information page and the service network: \textbf{the second problem is visual consistency} (H4). Social media appears before service channels, another priority poorly aligned with an urgent need (H8). Underlined links and the visible outline of the expanded accordion help identify interaction; keyboard and screen reader behavior were not tested. The portal should not receive credit for deciding cases, uploading documents, or calculating settlements: information pages refer users to the responsible service. (\hyperref[ref:ca_red]{ChileAtiende, n.d.-c}).
+
+
+\clearpage\begin{figure}[p]\centering
+\caption{Settlement explanation and fixed action at ChileAtiende}\label{fig:ca01}
+\includegraphics[width=\textwidth,height=0.70\textheight,keepaspectratio]{../screenshots/chileatiende/01-annotated.png}
+\par\smallskip\begin{figurenote}\textit{Note.} Term explanations and date are visible; ratification visually dominates help. Screenshot and annotations by the team of ChileAtiende (2026); observed October 5, 2026.\end{figurenote}\end{figure}\clearpage
+
+\clearpage\begin{figure}[p]\centering
+\caption{Ratification alternatives at ChileAtiende}\label{fig:ca02}
+\includegraphics[width=\textwidth,height=0.70\textheight,keepaspectratio]{../screenshots/chileatiende/02-annotated.png}
+\par\smallskip\begin{figurenote}\textit{Note.} The expanded section identifies DT, ClaveÚnica, and an in-person alternative. Screenshot and annotations by the team of ChileAtiende (2026); observed October 5, 2026.\end{figurenote}\end{figure}\clearpage
+
+\clearpage\begin{figure}[p]\centering
+\caption{ChileAtiende service network channels}\label{fig:ca03}
+\includegraphics[width=\textwidth,height=0.70\textheight,keepaspectratio]{../screenshots/chileatiende/03-annotated.png}
+\par\smallskip\begin{figurenote}\textit{Note.} Channels are explained; social media comes first and the visual treatment differs from the information page. Screenshot and annotations by the team of ChileAtiende (n.d.-c); observed October 5, 2026.\end{figurenote}\end{figure}\clearpage
+
+\section{The prototype should prioritize understanding, evidence, and control}
+
+\textbf{Garrett: Strategy.} Garrett (2011) connects user needs with product objectives. The concept is guided by the need to understand with evidence before acting. Its product objective is referral to the appropriate authority with explained confidence. The following priorities are \textbf{proposals for team validation, not approved decisions}. Findings refine the the Value Proposition Canvas and the UX personas. For Benjamin, we propose adopting SUSESO's situation entry and progressive preparation, while avoiding jargon at entry or premature complaints. For William, we propose DT's official sources and human support, while avoiding identification requests for initial general guidance or promises of no retaliation. His occupation alone does not establish the applicable working time regime: the route must ask about transport type and available records first. For Joseph, we propose ChileAtiende's everyday explanations and alternatives, while avoiding greater prominence for signing than understanding. These are \textbf{design hypotheses}, not preferences confirmed with users. (\hyperref[ref:dt_jornada]{DT, 2024}).
+
+
+\textbf{Garrett: Scope.} The same model helps define capabilities and content requirements. We propose a focused prototype route: select the problem, collect minimal context, explain with a source and review date, identify missing information, and prepare a referral. The source should accompany its claim rather than remain at the end of a document. The confidence level proposed in the Canvas should use understandable reasons—source relevance, missing evidence, or discrepancies—without arbitrary percentages or a label implying legal certainty. The feature map summarizes observed, documented, and proposed capabilities.
+
+
+Figure~\ref{fig:mapa} integrates observed, documented, and proposed capabilities.
+
+\clearpage\begin{figure}[p]\centering
+\caption{Feature comparison map and design opportunities}\label{fig:mapa}
+\includegraphics[width=\textwidth,keepaspectratio]{../feature-map.pdf}
+\par\smallskip\begin{figurenote}\textit{Note.} Created by the team from the benchmark; documented capabilities do not equal executed tests. The team proposal is a hypothesis.\end{figurenote}\end{figure}\clearpage
+
+A second priority is continuity: a reviewable summary, document checklist, and human guidance alternative. Information should be saved only at the user's explicit choice, with its use explained and deletion available. \textbf{Retention policies and deletion controls were not verified} for the three references. Public reading demonstrates that information can be offered without login, but does not prove an absence of tracking. The benchmark does not recommend collecting medical evidence to explain first medical leave or storing employment documents in the first version.
+
+
+The Canvas proposes automatic referral to the Labor Inspectorate for complex cases. The research requires refining that destination: \textbf{referral depends on subject and stage}. DT guides labor matters, while medical leave routes may require COMPIN or SUSESO. A discrepancy between official summaries should not become an individual instruction: show the limit and verify the competent source. Signing or submitting procedures, definitive severance calculations, medical diagnosis, legal determinations, and guarantees of complaint success are excluded from the initial scope. (\hyperref[ref:dt_licencias]{DT, 2025}; \hyperref[ref:su_compendio]{SUSESO, n.d.-b}).
+
+
+\section{The next evidence should test understanding before action}
+
+\textbf{The current status is phase 2 documentary research with public interface inspection.} Supervised use of authenticated flows, accessibility checks, and team validation of findings and priorities remain pending. This review is not attributed to meetings, interviews, reviews, or tests that did not occur. To advance, the team should agree on equivalent scenarios for each persona and observe whether participants can explain their situation, locate supporting evidence, and select appropriate help without confusing guidance with an official decision.
+
+
+The William's Customer Journey translates these hypotheses into touchpoints and opportunities; its emotions must be identified as inferred. Later evaluation should especially observe three errors: Benjamin starts a complaint inappropriate to his stage; William applies a working time rule without classifying his work; Joseph interprets an answer as authorization to sign. Reducing these confusions is a more useful criterion for this project than counting features or declaring a winner among portals with different mandates.
+
+
+\section{LaTeX submission report}
+
+APA 7 formatted PDF · Sources, UFRO cover, and build instructions. The format revision is dated October 8, 2026; findings and screenshots retain their October 5 observation date. The report includes author-date citations, alphabetical references, five tables, and ten figures. The institutional cover was adapted from the Networks report specified by the user.
+
+
+\clearpage\section{Comparison matrix}
+
+Tables~\ref{tab:matrix1} to~\ref{tab:matrix4} develop ten base dimensions and four domain dimensions. Each includes a complete team proposal row. O means observed in nine public screenshots; D, documented in official sources; and P, proposed for validation. Priorities reflect persona relevance, with no measured usage frequency.
+
+
+No global score is calculated: the tools have different mandates and the proposal is not yet an evaluated product. The matrix complements the analysis and Figures~\ref{fig:dt01} to~\ref{fig:mapa}.
+
+
+\clearpage\begin{landscape}\begin{singlespace}\fontsize{10}{11}\selectfont\setlength{\tabcolsep}{5pt}\begin{xltabular}{\linewidth}{@{}p{1.02in}YYYYY@{}}
+
+\caption{Identification, users, and capabilities}\label{tab:matrix1}\\\toprule
+
+\textbf{Tool} & \textbf{Category and relevance} & \textbf{1. Identity, platform, date, and version} & \textbf{2. Profile and use scenario} & \textbf{3. Value proposition} & \textbf{4. Features by relevance}\\\midrule\endfirsthead
+
+\multicolumn{6}{l}{\textbf{Table \thetable} (continued)}\\\toprule\textbf{Tool} & \textbf{Category and relevance} & \textbf{1. Identity, platform, date, and version} & \textbf{2. Profile and use scenario} & \textbf{3. Value proposition} & \textbf{4. Features by relevance}\\\midrule\endhead\bottomrule\endfoot\bottomrule\addlinespace[4pt]\multicolumn{6}{@{}p{\linewidth}@{}}{\doublespacing\normalsize\textit{Note.} Created by the team; observed October 5, 2026. O = observed; D = documented; P = proposed. Citations refer to the report references.}\\\endlastfoot
+
+Dirección del Trabajo / Mi DT & Direct functional reference: labor guidance and services, especially overtime and severance. & Website and Mi DT portal. Observed Oct. 5, 2026; version unpublished. D: access FAQ updated Dec. 14, 2023, not a product version. \hyperref[ref:dt_ingreso]{(DT, 2023)}. & O: worker/employer/union entries. D: working time guidance for William and severance for Joseph; transport rules need context. \hyperref[ref:dt_jornada]{(DT, 2024)}. & D: labor guidance, formal procedures, and institutional help. \hyperref[ref:dt_consultas]{(DT, n.d.-b)}. & 1 D: topic guidance; 2 O: settlement requirements; 3 D: Mi DT; 4 O: SUAC/phone/in-person help. \hyperref[ref:dt_finiquito]{(DT, n.d.-c)}.\\\addlinespace[3pt]
+
+SUSESO & Sector analogue: social security, preparation, and tracking; especially Benjamin's medical leave. & Website and PAE. Observed Oct. 5, 2026; version unpublished on reviewed pages. \hyperref[ref:su_usuarios]{(SUSESO, n.d.-h)}. & O: workers, families, and other profiles; Benjamin's medical leave. Social security mandate does not cover severance. \hyperref[ref:su_orientador]{(SUSESO, n.d.-a)}. & D: guide, process, and decide social security complaints involving supervised entities. \hyperref[ref:su_competencia]{(SUSESO, n.d.-i)}. & 1 O: guidance; 2 D: preparation; 3 D: SIL estimate; 4 O: complaint access; 5 O: tracking entry; no case inspected. \hyperref[ref:su_ciclo]{(SUSESO, n.d.-g)}, \hyperref[ref:su_simulador]{(SUSESO, n.d.-f)}.\\\addlinespace[3pt]
+
+ChileAtiende & Information and referral reference; especially Joseph's understanding and channel selection. & IPS website. Observed Oct. 5, 2026; version unpublished. O: settlement page updated Jan. 27, 2026. \hyperref[ref:ca_finiquito]{(ChileAtiende, 2026)}. & D: people seeking state benefits/procedures. O: settlement information for workers and service alternatives. \hyperref[ref:ca_descripcion]{(ChileAtiende, n.d.-d)}. & D: explain requirements and how/where to act; refer to responsible institutions. \hyperref[ref:ca_descripcion]{(ChileAtiende, n.d.-d)}. & 1 O: explanation; 2 O: expandable steps; 3 O: DT/in-person links; 4 O: channel network. No individual calculation or upload observed. \hyperref[ref:ca_red]{(ChileAtiende, n.d.-c)}.\\\addlinespace[3pt]
+
+Team proposal & P: AI-assisted labor guidance with evidence; bridge from understanding to appropriate authority. & P: course concept, with no implemented product version. Documentary/public benchmark dated Oct. 5, 2026. & P: Benjamin (first leave), William (unpaid hours), Joseph (settlement); everyday problem entry and minimal context. & P: understand before acting; clear evidence, limits, and next action without replacing official decisions. & P: 1 classify situation; 2 evidence-based answer; 3 missing information; 4 checklist/referral; 5 optionally saved summary.\\\addlinespace[3pt]
+
+\end{xltabular}\end{singlespace}\end{landscape}
+
+\clearpage\begin{landscape}\begin{singlespace}\fontsize{10}{11}\selectfont\setlength{\tabcolsep}{5pt}\begin{xltabular}{\linewidth}{@{}p{1.02in}YYYY@{}}
+
+\caption{Access, navigation, and interface}\label{tab:matrix2}\\\toprule
+
+\textbf{Tool} & \textbf{5. Onboarding: public versus documented} & \textbf{6. Navigation and observed depth} & \textbf{7. Visual design and interaction} & \textbf{8. Observable accessibility}\\\midrule\endfirsthead
+
+\multicolumn{5}{l}{\textbf{Table \thetable} (continued)}\\\toprule\textbf{Tool} & \textbf{5. Onboarding: public versus documented} & \textbf{6. Navigation and observed depth} & \textbf{7. Visual design and interaction} & \textbf{8. Observable accessibility}\\\midrule\endhead\bottomrule\endfoot\bottomrule\addlinespace[4pt]\multicolumn{5}{@{}p{\linewidth}@{}}{\doublespacing\normalsize\textit{Note.} Created by the team; observed October 5, 2026. O = observed; D = documented; P = proposed. Citations refer to the report references.}\\\endlastfoot
+
+Dirección del Trabajo / Mi DT & O: homepage and information page readable without an account. D: Mi DT requires RUN/ClaveÚnica; session not inspected. \hyperref[ref:dt_ingreso]{(DT, 2023)}. & O: homepage → Workers → settlement page; three public pages with vertical sections. Help/legal framework at bottom. Homepage and upper/lower page captured; private Mi DT unobserved. \hyperref[ref:dt_trabajadores]{(DT, n.d.-d)}. & O: institutional blue, large cards, headings, paragraphs/lists, and external manual. Notice occupies top strip. & O: +a/−a controls and headings; DT01 has horizontal scrolling. Contrast, semantics, zoom, and keyboard untested.\\\addlinespace[3pt]
+
+SUSESO & O: public selection and guidance. D: PAE offers ClaveÚnica/tax credentials and a password for legal entities. No login or validation of old personal password tutorial. \hyperref[ref:su_pae]{(SUSESO, n.d.-c)}. & O: user page and guidance; guidance → workers → medical leave → two situations. Branch endings and authenticated depth unobserved. & O: blue/white, large buttons, service images, breadcrumbs, and return control. & O: +a/−a controls partly cover Back in SU03 at captured size. No WCAG audit or screen reader test.\\\addlinespace[3pt]
+
+ChileAtiende & O: public information page/accordion. D: DT ratification uses ClaveÚnica; portal account uninspected. \hyperref[ref:ca_finiquito]{(ChileAtiende, 2026)}. & O: page → expanded Ratify accordion; service network on another page. DT link visible; destination procedure not executed. & O: heading, date, accordions, and fixed ratification action; network cards use a different header. & O: underlined links and visible expanded accordion outline. Keyboard, zoom, screen reader, and contrast untested.\\\addlinespace[3pt]
+
+Team proposal & P: initial guidance without account; explain each data request; institutional authentication only at appropriate destination. & P: situation → minimal questions → answer/scope → review checklist → choose channel. Back/edit planned in prototype. & P: understanding → evidence → action hierarchy; consistent components, source beside claim, and brief contextual help. & P: plain language, nonoverlapping controls, visible focus, and measurable contrast. Test keyboard/zoom/screen reader; no advance compliance claim.\\\addlinespace[3pt]
+
+\end{xltabular}\end{singlespace}\end{landscape}
+
+\clearpage\begin{landscape}\begin{singlespace}\fontsize{10}{11}\selectfont\setlength{\tabcolsep}{5pt}\begin{xltabular}{\linewidth}{@{}p{1.02in}YY@{}}
+
+\caption{Strengths and problems}\label{tab:matrix3}\\\toprule
+
+\textbf{Tool} & \textbf{9. Two strengths with heuristics} & \textbf{10. Two problems with heuristics}\\\midrule\endfirsthead
+
+\multicolumn{3}{l}{\textbf{Table \thetable} (continued)}\\\toprule\textbf{Tool} & \textbf{9. Two strengths with heuristics} & \textbf{10. Two problems with heuristics}\\\midrule\endhead\bottomrule\endfoot\bottomrule\addlinespace[4pt]\multicolumn{3}{@{}p{\linewidth}@{}}{\doublespacing\normalsize\textit{Note.} Created by the team; observed October 5, 2026. O = observed; D = documented; P = proposed. Citations refer to the report references.}\\\endlastfoot
+
+Dirección del Trabajo / Mi DT & O: profile cards (DT01, H6); SUAC/phone help and legal link (DT03, H10). & O: representatives' notice before worker entry (DT01, H8); evidence at bottom of long page (DT02–03, H6/H8). Inference: potential difficulty finding support.\\\addlinespace[3pt]
+
+SUSESO & O: separate complaint/tracking actions (SU01, H6); profile guidance (SU02, H2/H6). & O: formal COMPIN decision wording without visible explanation (SU03, H2); +a/−a partly overlaps Back (SU03, H3/H8). Not generalized across devices.\\\addlinespace[3pt]
+
+ChileAtiende & O: grounds explained as reason (CA01, H2); distinct expandable actions and visible destinations (CA02, H6/H8). & O: Ratify dominates Help in understanding scenario (CA01, H8); visual variation between page/network (CA01/03, H4). Additional observation: social media before service channels (CA03, H8).\\\addlinespace[3pt]
+
+Team proposal & P: adopt situation recognition and everyday explanation; place evidence/help beside answer. Proposed decisions; product strengths not yet evaluated. & P: risks to validate: answer interpreted as permission to sign; confidence labels imply certainty; evidence lost during channel change. Address through explicit scope, reasons, and reviewable summary.\\\addlinespace[3pt]
+
+\end{xltabular}\end{singlespace}\end{landscape}
+
+\clearpage\begin{landscape}\begin{singlespace}\fontsize{10}{11}\selectfont\setlength{\tabcolsep}{5pt}\begin{xltabular}{\linewidth}{@{}p{1.02in}YYYY@{}}
+
+\caption{Trust, referral, and data}\label{tab:matrix4}\\\toprule
+
+\textbf{Tool} & \textbf{11. Legal traceability} & \textbf{12. Limits and uncertainty} & \textbf{13. Competent referral} & \textbf{14. Privacy and data control}\\\midrule\endfirsthead
+
+\multicolumn{5}{l}{\textbf{Table \thetable} (continued)}\\\toprule\textbf{Tool} & \textbf{11. Legal traceability} & \textbf{12. Limits and uncertainty} & \textbf{13. Competent referral} & \textbf{14. Privacy and data control}\\\midrule\endhead\bottomrule\endfoot\bottomrule\addlinespace[4pt]\multicolumn{5}{@{}p{\linewidth}@{}}{\doublespacing\normalsize\textit{Note.} Created by the team; observed October 5, 2026. O = observed; D = documented; P = proposed. Citations refer to the report references.}\\\endlastfoot
+
+Dirección del Trabajo / Mi DT & O: Article 177 link at bottom. D: sector guidance/rules. Applicability to individual case unverified. \hyperref[ref:dt_finiquito]{(DT, n.d.-c)}. & D: requirements/modalities define procedure; employment/account/context matter. No conversational confidence scale observed. & O: Inspectorate/SUAC/phone. D: medical leave may require COMPIN/SUSESO. \hyperref[ref:dt_licencias]{(DT, 2025)}. & O: reading without credentials. D: procedures require applicant/employer data. Retention, deletion, and internal privacy unverified. \hyperref[ref:dt_antecedentes]{(DT, 2026)}.\\\addlinespace[3pt]
+
+SUSESO & D: compendium defines situation-based routes; authority depends on subject. Not every observed option has an adjacent rule. \hyperref[ref:su_compendio]{(SUSESO, n.d.-b)}. & D: SIL declares estimated results and exclusions. Preparation is not a decision or guaranteed amount. \hyperref[ref:su_simulador]{(SUSESO, n.d.-f)}. & D: prior stages/problem type determine route, including COMPIN; SUSESO complaints do not apply to every first leave. \hyperref[ref:su_compendio]{(SUSESO, n.d.-b)}. & O: guidance without identity. D: complaints request evidence/files. No medical data uploaded or deletion/retention verified. \hyperref[ref:su_reclamo]{(SUSESO, n.d.-d)}.\\\addlinespace[3pt]
+
+ChileAtiende & D: pages identify information provider and include legal framework structure. O: visible date. No labor decision attributed to portal. \hyperref[ref:ca_ayuda]{(ChileAtiende, n.d.-a)}. & D: information/guidance; procedure at destination institution. No individual advice or binding calculation observed. \hyperref[ref:ca_descripcion]{(ChileAtiende, n.d.-d)}. & O: ratification refers to DT/in-person service. D: medical leave page identifies COMPIN destination. \hyperref[ref:ca_licencias]{(ChileAtiende, n.d.-b)}. & O: information without account; individual procedure at destination. Account/storage policy uninspected. Public reading does not prove absence of tracking.\\\addlinespace[3pt]
+
+Team proposal & P: official rule/source, review date, assumption, and connection to claim; detect discrepancies; citation alone does not prove individual applicability. & P: explain missing evidence or unresolved situation; distinguish guidance/advice; reason-based confidence without arbitrary percentage. & P: authority, reason, required document, and channel; check subject/stage. Refine Canvas: DT is not automatic destination for every complex case. & P: minimal data, no RUT/medical documents for general explanation; explicit saving, deletion, and editing. Define use policy before real uploads; no promise of total anonymity.\\\addlinespace[3pt]
+
+\end{xltabular}\end{singlespace}\end{landscape}
