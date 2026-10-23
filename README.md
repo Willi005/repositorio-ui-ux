@@ -114,7 +114,7 @@ The remaining views are available in the [wireframes directory](skeleton/wirefra
 
 ## 6. Annex
 
-Supporting material is in [`annex/`](annex/): the [research notes](annex/research_notes/), the [benchmarking report in Markdown](annex/reports/), and the [activity verification](annex/verificacion-actividades.md). The [project brief](docs/project-brief.md) and the [scripts that reproduce the generated artifacts](scripts/README.md) are available in `docs/` and `scripts/`.
+Supporting material is in [`annex/`](annex/): the [research notes](annex/research-notes/), the [benchmarking report in Markdown](annex/reports/), and the [activity verification](annex/activity-verification.md). The [project brief](docs/project-brief.md) and the [scripts that reproduce the generated artifacts](scripts/README.md) are available in `docs/` and `scripts/`.
 
 ## Repository contents
 
